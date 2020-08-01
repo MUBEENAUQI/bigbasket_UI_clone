@@ -1,2 +1,5 @@
-# bigbasket_UI_clone
-cloned ui of bigbasket with react native ,screen shots are aviliable in screenshots folder
+# BigBasket
+
+git clone https://github.com/TechKnocksDev/BigBasket.git
+
+npm install
