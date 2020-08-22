@@ -9,8 +9,15 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
+import {useNavigation} from '@react-navigation/native';
+import Foodgrains from '../screen/Foodgrains';
 
-export default class Options extends React.Component {
+export default function (props) {
+  const navigation = useNavigation();
+
+  return <Options {...props} navigation={navigation} />;
+}
+class Options extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -18,13 +25,17 @@ export default class Options extends React.Component {
     };
   }
   render() {
+    const {navigation} = this.props;
     return (
       <View style={styles.container}>
         {this.props.data.map((data) => (
           <TouchableOpacity
             style={styles.imgbg}
             onPressIn={() => this.setState({pressIn: true})}
-            onPressOut={() => this.setState({pressIn: false})}>
+            onPressOut={() => this.setState({pressIn: false})}
+            onPress={() =>
+              navigation.navigate(data.datas, {screen: data.data1})
+            }>
             <Image
               style={{
                 backgroundColor: this.state.pressIn ? '#537e2c' : '#cbcccb',

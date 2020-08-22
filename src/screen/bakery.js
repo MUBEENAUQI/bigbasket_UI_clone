@@ -23,19 +23,73 @@ const images = [
 ];
 
 const options1 = [
-  {image: require('../../assets/bakery/menu1.jpg'), h: 140, w: 132},
-  {image: require('../../assets/bakery/menu2.jpg'), h: 140, w: 132},
-  {image: require('../../assets/bakery/menu3.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/bakery/menu1.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Milk',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/bakery/menu2.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Curd',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/bakery/menu3.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Paneer',
+    datas: 'Display',
+  },
 ];
 const options2 = [
-  {image: require('../../assets/bakery/menu4.jpg'), h: 140, w: 132},
-  {image: require('../../assets/bakery/menu5.jpg'), h: 140, w: 132},
-  {image: require('../../assets/bakery/menu6.png'), h: 140, w: 132},
+  {
+    image: require('../../assets/bakery/menu4.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Cheese',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/bakery/menu5.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Cakes',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/bakery/menu6.png'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Bread',
+    datas: 'Display',
+  },
 ];
 const options3 = [
-  {image: require('../../assets/bakery/menu7.jpg'), h: 140, w: 132},
-  {image: require('../../assets/bakery/menu8.jpg'), h: 140, w: 132},
-  {image: require('../../assets/bakery/menu9.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/bakery/menu7.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Cookies',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/bakery/menu8.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Gourmet',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/bakery/menu9.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Foodgrains/Bakery',
+    datas: 'Display',
+  },
 ];
 const banner = [{image: require('../../assets/bakery/banner1.jpg'), h: 120}];
 const head = [{image: require('../../assets/bakery/head.jpg')}];

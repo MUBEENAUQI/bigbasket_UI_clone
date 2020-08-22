@@ -21,14 +21,50 @@ const images = [
 ];
 
 const options1 = [
-  {image: require('../../assets/beverage/menu2.jpg'), h: 140, w: 132},
-  {image: require('../../assets/beverage/menu1.jpg'), h: 140, w: 132},
-  {image: require('../../assets/beverage/menu4.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/beverage/menu2.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Beverage/Tea',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/beverage/menu1.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Beverage/Coffee',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/beverage/menu4.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Beverage/Health',
+    datas: 'Display',
+  },
 ];
 const options2 = [
-  {image: require('../../assets/beverage/menu3.jpg'), h: 140, w: 132},
-  {image: require('../../assets/beverage/menu6.jpg'), h: 140, w: 132},
-  {image: require('../../assets/beverage/menu5.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/beverage/menu3.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Beverage/Juice',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/beverage/menu6.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Beverage/Energy',
+    datas: 'Display',
+  },
+  {
+    image: require('../../assets/beverage/menu5.jpg'),
+    h: 140,
+    w: 132,
+    data1: 'Beverage/Water',
+    datas: 'Display',
+  },
 ];
 
 const banner = [{image: require('../../assets/beverage/banner.jpg'), h: 200}];

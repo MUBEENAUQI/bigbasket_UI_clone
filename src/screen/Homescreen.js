@@ -14,67 +14,66 @@ import Header1 from '../components/header1';
 import Swp1 from '../components/Swp1';
 import SwipL from '../components/SwipL';
 import Imgi from '../components/Imgi';
-import Options from '../components/options';
+import Options2 from '../components/options2';
 import Banner2 from '../components/Banner2';
 import Sby from '../components/Sby';
 import Drawer from '../components/drawer/drawer';
 
-export default class HomeScreen extends Component {
-  render() {
-    return (
-      <>
-        <StatusBar backgroundColor="#87BE56" barStyle="light-content" />
+export default function HomeScreen({navigation}) {
+  return (
+    <>
+      <StatusBar backgroundColor="#87BE56" barStyle="light-content" />
 
+      <View>
+        <Header1 data={true} />
         <View>
-          <Header1 data={true} />
-          <View>
-            <ScrollView
-              contentInsetAdjustmentBehavior="automatic"
-              contentContainerStyle={{flexGrow: 1}}>
-              <View>
-                <View style={{backgroundColor: 'white'}}>
-                  <Swp1 data={simages} />
-                </View>
-                <View style={{backgroundColor: 'white'}}>
-                  <Imgi data={banner1} />
-                </View>
-                <View style={styles.swipL}>
-                  <SwipL data={simages2} />
-                </View>
-
-                <View style={styles.sb_head}>
-                  <Image
-                    source={require('../../assets/homescreen/sb_head.jpeg')}
-                    resizeMode="contain"
-                    style={{flex: 1, width: '100%', height: undefined}}
-                  />
-                </View>
-                <View>
-                  <Sby data={sby1} />
-                </View>
-
-                <View style={styles.options}>
-                  <Options data={options1} />
-                  <Options data={options2} />
-                  <Options data={options3} />
-                </View>
-
-                <View style={{marginTop: 10}}>
-                  <Banner2 data={banner2} />
-                </View>
-
-                <View style={{marginVertical: 10}}>
-                  <Swp1 data={swpimgs3} />
-                </View>
-                <View style={{height: 230}}></View>
+          <ScrollView
+            contentInsetAdjustmentBehavior="automatic"
+            contentContainerStyle={{flexGrow: 1}}>
+            <View>
+              <View style={{backgroundColor: 'white'}}>
+                <Swp1 data={simages} />
               </View>
-            </ScrollView>
-          </View>
+              <View style={{backgroundColor: 'white'}}>
+                <Imgi data={banner1} />
+              </View>
+              <View style={styles.swipL}>
+                <SwipL data={simages2} />
+              </View>
+
+              <View style={styles.sb_head}>
+                <Image
+                  source={require('../../assets/homescreen/sb_head.jpeg')}
+                  resizeMode="contain"
+                  style={{flex: 1, width: '100%', height: undefined}}
+                />
+              </View>
+              <View>
+                <Sby data={sby1} />
+              </View>
+
+              <View style={styles.options}>
+                <Options2 data={options1} />
+                <Options2 data={options2} />
+                <Options2 data={options3} />
+              </View>
+
+              <View style={{marginTop: 10}}>
+                <Banner2 data={banner2} />
+              </View>
+
+              <View style={{marginVertical: 10}}>
+                <Swp1 data={swpimgs3} />
+              </View>
+              <View style={{height: 230}}></View>
+            </View>
+          </ScrollView>
         </View>
-      </>
-    );
-  }
+      </View>
+    </>
+  );
 }
+
 const simages = [
   {
     swp: require('../../assets/homescreen/swp/swipe1.jpeg'),
@@ -107,23 +106,68 @@ const banner1 = [
 ];
 const banner2 = [{pic: require('../../assets/homescreen/banner/banner2.jpg')}];
 const sby1 = [
-  {pic: require('../../assets/homescreen/option/one.jpeg')},
-  {pic: require('../../assets/homescreen/option/twoo.jpeg')},
+  {pic: require('../../assets/homescreen/option/one.jpeg'), datas: 'Fruits'},
+  {pic: require('../../assets/homescreen/option/twoo.jpeg'), datas: 'Snacks'},
 ];
 const options1 = [
-  {image: require('../../assets/homescreen/option/one.jpg'), h: 140, w: 132},
-  {image: require('../../assets/homescreen/option/two.jpg'), h: 140, w: 132},
-  {image: require('../../assets/homescreen/option/three.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/homescreen/option/one.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Foodgrains',
+  },
+  {
+    image: require('../../assets/homescreen/option/two.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Bakery',
+  },
+  {
+    image: require('../../assets/homescreen/option/three.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Eggs',
+  },
 ];
 const options2 = [
-  {image: require('../../assets/homescreen/option/five.jpg'), h: 140, w: 132},
-  {image: require('../../assets/homescreen/option/four.jpg'), h: 140, w: 132},
-  {image: require('../../assets/homescreen/option/six.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/homescreen/option/five.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Beauty',
+  },
+  {
+    image: require('../../assets/homescreen/option/four.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Kitchen',
+  },
+  {
+    image: require('../../assets/homescreen/option/six.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Beverages',
+  },
 ];
 const options3 = [
-  {image: require('../../assets/homescreen/option/seven.jpg'), h: 140, w: 132},
-  {image: require('../../assets/homescreen/option/eight.jpg'), h: 140, w: 132},
-  {image: require('../../assets/homescreen/option/nine.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/homescreen/option/seven.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Cleaning',
+  },
+  {
+    image: require('../../assets/homescreen/option/eight.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Gourmet',
+  },
+  {
+    image: require('../../assets/homescreen/option/nine.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Baby',
+  },
 ];
 const styles = StyleSheet.create({
   swipL: {height: 185, marginTop: 5, backgroundColor: '#E7F3A1'},
