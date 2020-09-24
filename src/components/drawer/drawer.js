@@ -12,9 +12,249 @@ import {
   ScrollView,
 } from 'react-native';
 import {Properties} from '../../config/properties';
-
+import Loginscreen from '../../screen/login';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import {useNavigation} from '@react-navigation/native';
 
+// export default function (props) {
+//   const navigation = useNavigation();
+
+//   return <Drawer {...props} navigation={navigation} />;
+// }
+
+function Sub_tree({label}) {
+  return (
+    <TouchableOpacity>
+      <Text style={styles.list}>{label}</Text>
+    </TouchableOpacity>
+  );
+}
+
+class ShopByCart extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      expandCard: false,
+    };
+  }
+
+  render() {
+    return (
+      <View style={styles.cmp}>
+        <TouchableOpacity
+          onPress={() => {
+            this.setState({expandCard: !this.state.expandCard});
+          }}
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+          }}>
+          <Text style={styles.Shoptxt}>{this.props.list.label}</Text>
+
+          <Ionicons
+            name={this.state.expandCard ? 'remove-sharp' : 'add'}
+            size={30}
+            color="#87BE56"
+            style={{marginTop: 5}}
+          />
+        </TouchableOpacity>
+        <FlatList
+          data={this.state.expandCard ? this.props.list.datalist : ''}
+          renderItem={({item}) => <Sub_tree label={item.title} />}
+          keyExtractor={(item) => item.id}
+        />
+      </View>
+    );
+  }
+}
+
+function Btn({label}) {
+  return (
+    <View style={styles.btn}>
+      <Text
+        style={{
+          color: '#fff',
+          margin: 2,
+          fontSize: 20,
+          fontFamily: Properties.fonts.default,
+        }}>
+        {label}
+      </Text>
+    </View>
+  );
+}
+
+class Drawer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      expandCard: false,
+      rot: false,
+      SlideInLeft: new Animated.Value(0),
+      w: '80%',
+      sh: 'rgba(0,0,0,0.2)',
+    };
+  }
+
+  _start = () => {
+    return Animated.parallel([
+      Animated.timing(this.state.SlideInLeft, {
+        toValue: 1,
+        duration: 100,
+        useNativeDriver: true,
+      }),
+    ]).start();
+  };
+
+  _close = () => {
+    this.setState({sh: 'rgba(0,0,0,0)', w: '40%'});
+    this.props.hide();
+    this.setState({sh: 'rgba(0,0,0,0.2)', w: '80%'});
+  };
+
+  render() {
+    let {SlideInLeft} = this.state;
+    return (
+      <Animated.View
+        style={{
+          transform: [
+            {
+              translateY: SlideInLeft.interpolate({
+                inputRange: [0, 1],
+                outputRange: [600, 0],
+              }),
+            },
+          ],
+        }}>
+        <Modal visible={this.props.visible}>
+          <View style={styles.modal}>
+            <View style={[styles.menu, {width: this.state.w}]}>
+              <View
+                style={{
+                  width: this.state.rot ? 0 : 'auto',
+                  height: this.state.rot ? 0 : 'auto',
+                }}>
+                <View style={styles.sign}>
+                  <TouchableOpacity
+                    onPress={() => {
+                      navigate('Loginscreen');
+                    }}>
+                    <Btn label="Login" />
+                  </TouchableOpacity>
+                  <TouchableOpacity>
+                    <Btn label="Sign Up" />
+                  </TouchableOpacity>
+                </View>
+                <View style={styles.cont}>
+                  <Text style={styles.txt}>Home</Text>
+                  <Text style={styles.txt}>Smart Basket</Text>
+                  <TouchableOpacity
+                    onPress={() => {
+                      this.setState({rot: !this.state.rot});
+                    }}
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'space-between',
+                    }}>
+                    <Text style={[styles.txt, {fontWeight: 'bold'}]}>
+                      Shop By Category
+                    </Text>
+                    <Text
+                      style={[
+                        styles.txt,
+                        {
+                          color: '#87BE56',
+                          fontFamily: 'Poppins-Bold',
+                          transform: [
+                            {rotate: this.state.rot ? '90deg' : '0deg'},
+                          ],
+                        },
+                      ]}>
+                      {'>'}
+                    </Text>
+                  </TouchableOpacity>
+
+                  <Text style={styles.txt}>True Beauty Store</Text>
+                  <Text style={styles.txt}>bbstar Membership</Text>
+                  <Text style={styles.txt}>Customer Service</Text>
+                  <Text style={styles.txt}>bb cookbook</Text>
+                  <Text style={styles.txt}>Gift Card</Text>
+                  <Text style={styles.txt}>bb Life</Text>
+                </View>
+              </View>
+              <View style={{height: this.state.rot ? 'auto' : 0}}>
+                <View
+                  style={[
+                    styles.back,
+                    {
+                      height: this.state.rot ? 90 : 0,
+                      paddingTop: this.state.rot ? 10 : 0,
+                    },
+                  ]}>
+                  <TouchableOpacity
+                    onPress={() => {
+                      this.setState({rot: !this.state.rot});
+                    }}
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'flex-start',
+                      alignItems: 'flex-start',
+                      marginBottom: 5,
+                    }}>
+                    <Ionicons
+                      name="arrow-back-circle"
+                      size={25}
+                      color="#fff"
+                      style={{marginLeft: 10}}
+                    />
+                    <Text
+                      style={{
+                        color: '#fff',
+                        fontSize: 18,
+                        marginLeft: 5,
+                        marginTop: 1,
+                      }}>
+                      Main Menu
+                    </Text>
+                  </TouchableOpacity>
+                  <View style={{}}>
+                    <Text
+                      style={{
+                        color: '#fff',
+                        fontSize: 20,
+                        margin: 10,
+                        paddingBottom: 10,
+                        alignItems: 'center',
+                        marginLeft: 90,
+                      }}>
+                      Shop By Category
+                    </Text>
+                  </View>
+                </View>
+                <ScrollView
+                  style={{height: Dimensions.get('window').height - 90}}>
+                  {DATA.map((datas) => (
+                    <ShopByCart list={datas} key={datas.label} />
+                  ))}
+                </ScrollView>
+              </View>
+            </View>
+            <TouchableHighlight
+              underlayColor="rgba(a,a,a ,1)"
+              style={[styles.exp, {backgroundColor: this.state.sh}]}
+              onPress={() => this._close()}>
+              <View />
+            </TouchableHighlight>
+          </View>
+        </Modal>
+      </Animated.View>
+    );
+    this._start();
+  }
+}
 const DATA = [
   {
     label: 'Fruits & Vegetables',
@@ -487,237 +727,6 @@ const DATA = [
     ],
   },
 ];
-
-function Sub_tree({label}) {
-  return (
-    <TouchableOpacity>
-      <Text style={styles.list}>{label}</Text>
-    </TouchableOpacity>
-  );
-}
-
-class ShopByCart extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      expandCard: false,
-    };
-  }
-
-  render() {
-    return (
-      <View style={styles.cmp}>
-        <TouchableOpacity
-          onPress={() => {
-            this.setState({expandCard: !this.state.expandCard});
-          }}
-          style={{
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-          }}>
-          <Text style={styles.Shoptxt}>{this.props.list.label}</Text>
-
-          <Ionicons
-            name={this.state.expandCard ? 'remove-sharp' : 'add'}
-            size={30}
-            color="#87BE56"
-            style={{marginTop: 5}}
-          />
-        </TouchableOpacity>
-        <FlatList
-          data={this.state.expandCard ? this.props.list.datalist : ''}
-          renderItem={({item}) => <Sub_tree label={item.title} />}
-          keyExtractor={(item) => item.id}
-        />
-      </View>
-    );
-  }
-}
-
-function Btn({label}) {
-  return (
-    <View style={styles.btn}>
-      <Text
-        style={{
-          color: '#fff',
-          margin: 2,
-          fontSize: 20,
-          fontFamily: Properties.fonts.default,
-        }}>
-        {label}
-      </Text>
-    </View>
-  );
-}
-
-class Drawer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      expandCard: false,
-      rot: false,
-      SlideInLeft: new Animated.Value(0),
-      w: '80%',
-      sh: 'rgba(0,0,0,0.2)',
-    };
-  }
-
-  _start = () => {
-    return Animated.parallel([
-      Animated.timing(this.state.SlideInLeft, {
-        toValue: 1,
-        duration: 100,
-        useNativeDriver: true,
-      }),
-    ]).start();
-  };
-
-  _close = () => {
-    this.setState({sh: 'rgba(0,0,0,0)', w: '40%'});
-    this.props.hide();
-    this.setState({sh: 'rgba(0,0,0,0.2)', w: '80%'});
-  };
-
-  render() {
-    let {SlideInLeft} = this.state;
-    return (
-      <Animated.View
-        style={{
-          transform: [
-            {
-              translateY: SlideInLeft.interpolate({
-                inputRange: [0, 1],
-                outputRange: [600, 0],
-              }),
-            },
-          ],
-        }}>
-        <Modal visible={this.props.visible}>
-          <View style={styles.modal}>
-            <View style={[styles.menu, {width: this.state.w}]}>
-              <View
-                style={{
-                  width: this.state.rot ? 0 : 'auto',
-                  height: this.state.rot ? 0 : 'auto',
-                }}>
-                <View style={styles.sign}>
-                  <TouchableOpacity>
-                    <Btn label="Login" />
-                  </TouchableOpacity>
-                  <TouchableOpacity>
-                    <Btn label="Sign Up" />
-                  </TouchableOpacity>
-                </View>
-                <View style={styles.cont}>
-                  <Text style={styles.txt}>Home</Text>
-                  <Text style={styles.txt}>Smart Basket</Text>
-                  <TouchableOpacity
-                    onPress={() => {
-                      this.setState({rot: !this.state.rot});
-                    }}
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'row',
-                      justifyContent: 'space-between',
-                    }}>
-                    <Text style={[styles.txt, {fontWeight: 'bold'}]}>
-                      Shop By Category
-                    </Text>
-                    <Text
-                      style={[
-                        styles.txt,
-                        {
-                          color: '#87BE56',
-                          fontFamily: 'Poppins-Bold',
-                          transform: [
-                            {rotate: this.state.rot ? '90deg' : '0deg'},
-                          ],
-                        },
-                      ]}>
-                      {'>'}
-                    </Text>
-                  </TouchableOpacity>
-
-                  <Text style={styles.txt}>True Beauty Store</Text>
-                  <Text style={styles.txt}>bbstar Membership</Text>
-                  <Text style={styles.txt}>Customer Service</Text>
-                  <Text style={styles.txt}>bb cookbook</Text>
-                  <Text style={styles.txt}>Gift Card</Text>
-                  <Text style={styles.txt}>bb Life</Text>
-                </View>
-              </View>
-              <View style={{height: this.state.rot ? 'auto' : 0}}>
-                <View
-                  style={[
-                    styles.back,
-                    {
-                      height: this.state.rot ? 90 : 0,
-                      paddingTop: this.state.rot ? 10 : 0,
-                    },
-                  ]}>
-                  <TouchableOpacity
-                    onPress={() => {
-                      this.setState({rot: !this.state.rot});
-                    }}
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'row',
-                      justifyContent: 'flex-start',
-                      alignItems: 'flex-start',
-                      marginBottom: 5,
-                    }}>
-                    <Ionicons
-                      name="arrow-back-circle"
-                      size={25}
-                      color="#fff"
-                      style={{marginLeft: 10}}
-                    />
-                    <Text
-                      style={{
-                        color: '#fff',
-                        fontSize: 18,
-                        marginLeft: 5,
-                        marginTop: 1,
-                      }}>
-                      Main Menu
-                    </Text>
-                  </TouchableOpacity>
-                  <View style={{}}>
-                    <Text
-                      style={{
-                        color: '#fff',
-                        fontSize: 20,
-                        margin: 10,
-                        paddingBottom: 10,
-                        alignItems: 'center',
-                        marginLeft: 90,
-                      }}>
-                      Shop By Category
-                    </Text>
-                  </View>
-                </View>
-                <ScrollView
-                  style={{height: Dimensions.get('window').height - 90}}>
-                  {DATA.map((datas) => (
-                    <ShopByCart list={datas} key={datas.label} />
-                  ))}
-                </ScrollView>
-              </View>
-            </View>
-            <TouchableHighlight
-              underlayColor="rgba(a,a,a ,1)"
-              style={[styles.exp, {backgroundColor: this.state.sh}]}
-              onPress={() => this._close()}>
-              <View />
-            </TouchableHighlight>
-          </View>
-        </Modal>
-      </Animated.View>
-    );
-    this._start();
-  }
-}
 
 const styles = StyleSheet.create({
   modal: {

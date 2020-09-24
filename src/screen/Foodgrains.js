@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import Swiperi from '../components/swiper';
 import Head from '../components/head';
-import Options from '../components/options';
+import Options2 from '../components/options2';
 import Banner from '../components/banner';
 import Header from '../components/header';
 const images = [
@@ -25,19 +25,64 @@ const images = [
 ];
 
 const options1 = [
-  {image: require('../../assets/foodgrains/menu1.jpg'), h: 140, w: 132},
-  {image: require('../../assets/foodgrains/menu2.jpg'), h: 140, w: 132},
-  {image: require('../../assets/foodgrains/menu3.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/foodgrains/menu1.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Atta',
+  },
+  {
+    image: require('../../assets/foodgrains/menu2.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Rice',
+  },
+  {
+    image: require('../../assets/foodgrains/menu3.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Oil',
+  },
 ];
 const options2 = [
-  {image: require('../../assets/foodgrains/menu4.jpg'), h: 140, w: 132},
-  {image: require('../../assets/foodgrains/menu5.jpg'), h: 140, w: 132},
-  {image: require('../../assets/foodgrains/menu6.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/foodgrains/menu4.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Dals',
+  },
+  {
+    image: require('../../assets/foodgrains/menu5.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Organic_staples',
+  },
+  {
+    image: require('../../assets/foodgrains/menu6.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Spices',
+  },
 ];
 const options3 = [
-  {image: require('../../assets/foodgrains/menu7.jpg'), h: 140, w: 132},
-  {image: require('../../assets/foodgrains/menu8.jpg'), h: 140, w: 132},
-  {image: require('../../assets/foodgrains/menu9.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/foodgrains/menu7.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Sugar',
+  },
+  {
+    image: require('../../assets/foodgrains/menu8.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Dry_Fruits',
+  },
+  {
+    image: require('../../assets/foodgrains/menu9.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Allfoodgrains',
+  },
 ];
 const banner = [{image: require('../../assets/foodgrains/banner.jpg'), h: 270}];
 const head = [{image: require('../../assets/foodgrains/head.jpg')}];
@@ -69,9 +114,9 @@ export default class Foodgrains extends React.Component {
               <Head data={head} />
             </View>
             <View style={styles.options}>
-              <Options data={options1} />
-              <Options data={options2} />
-              <Options data={options3} />
+              <Options2 data={options1} />
+              <Options2 data={options2} />
+              <Options2 data={options3} />
             </View>
 
             <View style={styles.banner}>

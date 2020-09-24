@@ -3,7 +3,7 @@ import {Text, View, TouchableOpacity, Image, SafeAreaView} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
-import FilterFoodgrains from './src/screen/filterfoodgrains';
+
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -18,28 +18,52 @@ import Beauty from './src/screen/beauty';
 import Cleaning from './src/screen/cleaning';
 import Gourmet from './src/screen/gourmet';
 import Beverages from './src/screen/beverages';
-import FilterFruits from './src/screen/FilterFruits';
-import Header1 from './src/components/header1';
-import Header from './src/components/header';
+import Filter from './src/screen/filter';
+
 import Category from './src/screen/categories';
 import HomeScreen from './src/screen/Homescreen';
 import Offers from './src/screen/offers';
 import Basket from './src/screen/basket';
 import Search from './src/screen/search';
 import Display from './src/screen/display';
-//import Learn from './src/screen/learn';
+import Product from './src/screen/product';
+import Loginscreen from './src/screen/login';
+import Delivery from './src/screen/delivery';
+import Learn from './src/screen/learn';
+import Address from './src/screen/address';
+import Drawer from './src/components/drawer/drawer';
 // const App = () => {
 //   return (
 //     <>
 //       <SafeAreaView>
-//         <Learn />
+//         <Delivery />
 //       </SafeAreaView>
 //     </>
 //   );
 // };
 // export default App;
+import Exotic from './src/screen/innerscreen/Fruits/Exotic';
+import Flower from './src/screen/innerscreen/Fruits/Flowers';
+import Fresh_fruits from './src/screen/innerscreen/Fruits/fruitList';
+import Fruitall from './src/screen/innerscreen/Fruits/FruitsViewall';
+import Herbs from './src/screen/innerscreen/Fruits/Herbs';
+import Organics from './src/screen/innerscreen/Fruits/organicList';
+import Seasonal from './src/screen/innerscreen/Fruits/Seasonal';
+import Sprouts from './src/screen/innerscreen/Fruits/Sprouts';
+import Vegetablesf from './src/screen/innerscreen/Fruits/ViewallVeg';
+
+import Atta from './src/screen/innerscreen/foodgrains/AttaFlour';
+import Rice from './src/screen/innerscreen/foodgrains/Rice';
+import Oil from './src/screen/innerscreen/foodgrains/Oil';
+import Dals from './src/screen/innerscreen/foodgrains/Dal';
+import Organic_staples from './src/screen/innerscreen/foodgrains/Staples';
+import Spices from './src/screen/innerscreen/foodgrains/Masala';
+import Sugar from './src/screen/innerscreen/foodgrains/Salt';
+import Dry_Fruits from './src/screen/innerscreen/foodgrains/Dryfruits';
+import Allfoodgrains from './src/screen/innerscreen/foodgrains/Viewall';
 
 const HomeStack = createStackNavigator();
+
 const Tab = createBottomTabNavigator();
 
 function TabNavigation({navigation}) {
@@ -131,6 +155,11 @@ export default function App() {
         />
         <HomeStack.Screen
           options={{headerShown: false}}
+          name="Product"
+          component={Product}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
           name="Display"
           component={Display}
         />
@@ -184,6 +213,127 @@ export default function App() {
           name="Baby"
           component={Baby}
         />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Address"
+          component={Address}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Delivery"
+          component={Delivery}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name=" Loginscreen"
+          component={Loginscreen}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Exotic"
+          component={Exotic}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Flower"
+          component={Flower}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Fresh_fruits"
+          component={Fresh_fruits}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Fruitall"
+          component={Fruitall}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Herbs"
+          component={Herbs}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Organics"
+          component={Organics}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Seasonal"
+          component={Seasonal}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Sprouts"
+          component={Sprouts}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Vegetablesf"
+          component={Vegetablesf}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Filter"
+          component={Filter}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Atta"
+          component={Atta}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Rice"
+          component={Rice}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Oil"
+          component={Oil}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Dals"
+          component={Dals}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Organic_staples"
+          component={Organic_staples}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Spices"
+          component={Spices}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Dry_Fruits"
+          component={Dry_Fruits}
+        />
+        {/* <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Spices"
+          component={Spices}
+        /> */}
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Sugar"
+          component={Sugar}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Allfoodgrains"
+          component={Allfoodgrains}
+        />
+
+        {/* <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Drawers "
+          component={Drawers}
+        /> */}
       </HomeStack.Navigator>
     </NavigationContainer>
   );

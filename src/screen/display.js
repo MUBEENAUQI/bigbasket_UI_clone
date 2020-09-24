@@ -10,10 +10,17 @@ import {
 } from 'react-native';
 const axios = require('axios');
 import {Dimensions} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-export default class Display extends Component {
+
+export default function (props) {
+  const navigation = useNavigation();
+
+  return <Display {...props} navigation={navigation} />;
+}
+class Display extends Component {
   constructor(props) {
     super(props);
 
@@ -25,7 +32,7 @@ export default class Display extends Component {
 
   async componentDidMount() {
     await axios
-      .get('http://192.168.42.193:3000/api/' + this.props.route.params.screen)
+      .get('http://192.168.42.112:3000/api/' + this.props.route.params.screen)
       .then((res) => {
         this.setState({data: res.data});
         this.setState({isLoading: false});
@@ -34,7 +41,7 @@ export default class Display extends Component {
   }
   render() {
     const {data, isLoading} = this.state;
-
+    const {navigation} = this.props;
     return (
       <View style={{padding: 24}}>
         {isLoading ? (
@@ -46,31 +53,31 @@ export default class Display extends Component {
                 data={data}
                 keyExtractor={(id) => id}
                 renderItem={({item}) => (
-                  // <View>
-                  //   <Text>
-                  //     {item.name}, {item.price}
-                  //   </Text>
-
-                  //   <Image
-                  //     resizeMode="contain"
-                  //     style={{
-                  //       flex: 1,
-                  //       height: 20,
-                  //       borderRadius: 2,
-                  //     }}
-                  //     source={{
-                  //       uri: 'http://192.168.42.14:3000/' + item.productImage,
-                  //     }}http://192.168.42.193/
-                  //   />
-                  // </View>
                   <View style={styles.displaybox}>
-                    <Image
-                      style={{height: 160, width: 160, resizeMode: 'contain'}}
-                      source={{
-                        uri: 'http://192.168.42.193:3000/' + item.productImage,
-                      }}
-                    />
-
+                    <TouchableOpacity
+                      onPress={() =>
+                        navigation.navigate('Product', {
+                          screen: this.props.route.params.screen,
+                          id: item.id,
+                          price: item.price,
+                          name: item.name,
+                          productImage: item.productImage,
+                        })
+                      }>
+                      <View>
+                        <Image
+                          style={{
+                            height: 160,
+                            width: 160,
+                            resizeMode: 'contain',
+                          }}
+                          source={{
+                            uri:
+                              'http://192.168.42.112:3000/' + item.productImage,
+                          }}
+                        />
+                      </View>
+                    </TouchableOpacity>
                     <View style={styles.descriptionview}>
                       {/* <Text style={{fontSize:13,color:'#8F8F8F'}}>{data.brand}</Text> */}
                       <Text style={{fontSize: 13}}>{item.name}</Text>

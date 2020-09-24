@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import Swiperi from '../components/swiper';
 import Head from '../components/head';
-import Options from '../components/options';
+import Options2 from '../components/options2';
 import Banner from '../components/banner';
 import Header from '../components/header';
 const images = [
@@ -22,19 +22,64 @@ const images = [
 ];
 
 const options1 = [
-  {image: require('../../assets/fruits_veggies/menu3.jpg'), h: 140, w: 132},
-  {image: require('../../assets/fruits_veggies/menu2.jpg'), h: 140, w: 132},
-  {image: require('../../assets/fruits_veggies/menu1.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/fruits_veggies/menu3.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Vegetablesf',
+  },
+  {
+    image: require('../../assets/fruits_veggies/menu2.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Fresh_fruits',
+  },
+  {
+    image: require('../../assets/fruits_veggies/menu1.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Organics',
+  },
 ];
 const options2 = [
-  {image: require('../../assets/fruits_veggies/menu4.jpg'), h: 140, w: 132},
-  {image: require('../../assets/fruits_veggies/menu5.jpg'), h: 140, w: 132},
-  {image: require('../../assets/fruits_veggies/menu6.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/fruits_veggies/menu4.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Herbs',
+  },
+  {
+    image: require('../../assets/fruits_veggies/menu5.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Exotic',
+  },
+  {
+    image: require('../../assets/fruits_veggies/menu6.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Seasonal',
+  },
 ];
 const options3 = [
-  {image: require('../../assets/fruits_veggies/menu7.jpg'), h: 140, w: 132},
-  {image: require('../../assets/fruits_veggies/menu8.jpg'), h: 140, w: 132},
-  {image: require('../../assets/fruits_veggies/menu9.jpg'), h: 140, w: 132},
+  {
+    image: require('../../assets/fruits_veggies/menu7.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Flower',
+  },
+  {
+    image: require('../../assets/fruits_veggies/menu8.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Sprouts',
+  },
+  {
+    image: require('../../assets/fruits_veggies/menu9.jpg'),
+    h: 140,
+    w: 132,
+    datas: 'Fruitall',
+  },
 ];
 const banner = [
   {image: require('../../assets/fruits_veggies/banner.jpg'), h: 180},
@@ -68,9 +113,9 @@ export default class Fruits extends React.Component {
               <Head data={head} />
             </View>
             <View style={styles.options}>
-              <Options data={options1} />
-              <Options data={options2} />
-              <Options data={options3} />
+              <Options2 data={options1} />
+              <Options2 data={options2} />
+              <Options2 data={options3} />
             </View>
             <View style={styles.banner}>
               <Banner data={banner} />

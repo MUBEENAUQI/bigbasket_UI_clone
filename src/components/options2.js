@@ -99,7 +99,9 @@ class Options extends React.Component {
             style={styles.imgbg}
             onPressIn={() => this.setState({pressIn: true})}
             onPressOut={() => this.setState({pressIn: false})}
-            onPress={() => navigation.navigate(data.datas)}>
+            onPress={() =>
+              navigation.navigate(data.datas, {screen: data.data1})
+            }>
             <Image
               style={{
                 backgroundColor: this.state.pressIn ? '#537e2c' : '#cbcccb',
