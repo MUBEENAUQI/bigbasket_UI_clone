@@ -24,6 +24,7 @@ const displaylist = [
     image: require('../../../../assets/images/Bakery/breads/one.jpg'),
     brand: 'FRESHO SIGNATURE',
     name: 'Fruit Tea Cake',
+    screen: 'Bakery',
     star: '4',
     rating: '25364 Rating',
     kg: 'Combo-2 Items',
@@ -40,6 +41,7 @@ const displaylist = [
     name: 'Fruit Cake',
     star: '3.9 ',
     rating: '53214 Rating',
+    screen: 'Bakery',
     kg: '120 g',
     mrp: '22.50',
     actmrp: 'Rs 20.10',
@@ -57,6 +59,7 @@ const displaylist = [
     kg: '200 g  ',
     mrp: '162',
     actmrp: 'Rs 159 ',
+    screen: 'Bakery',
     about:
       'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
     about2:
@@ -71,6 +74,7 @@ const displaylist = [
     rating: '56324 Rating',
     kg: '250 g ',
     mrp: '160',
+    screen: 'Bakery',
     actmrp: 'Rs 159',
     about:
       'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
@@ -83,6 +87,7 @@ const displaylist = [
     brand: 'FRESHO SIGNATURE',
     name: ' Choco Chip Tea Cake',
     star: '4.2',
+    screen: 'Bakery',
     rating: '265874 Rating',
     kg: '250 g',
     mrp: '160',
@@ -96,6 +101,7 @@ const displaylist = [
     image: require('../../../../assets/images/Bakery/breads/one.jpg'),
     brand: 'MOTHER DAIRY',
     name: 'Misti Doi',
+    screen: 'Bakery',
     star: '4.1',
     rating: '1350 Ratings',
     kg: '85 g -Cup',

@@ -29,6 +29,7 @@ const displaylist = [
     kg: '200 g',
     mrp: '66.50',
     actmrp: 'Rs 65',
+    screen:"Bakery",
     about:
       'This artisan garlic bread is a real treat, perfect for any occasion, drenched in butter and herb mixture. Generally served along with pasta and other main courses, all around the world. ',
     about2:
@@ -42,7 +43,7 @@ const displaylist = [
     rating: '63521 Rating',
     kg: '100 g - Pouch',
     mrp: '92.75',
-    actmrp: 'Rs 90 ',
+    actmrp: 'Rs 90 ',screen:"Bakery",
     about:
       'Unique crunchy chips embodied with Ragi, we are loaded with garlic and are perfect with any dip that you may choose to have',
     about2:
@@ -57,7 +58,7 @@ const displaylist = [
     rating: '96325 Rating',
     kg: '100 g',
     mrp: '102.50',
-    actmrp: 'Rs 100',
+    actmrp: 'Rs 100',screen:"Bakery",
     about: '100% Wholewheat',
     about2: 'Contains Wholewheat Flour (Atta), Yeast, Honey, Salt, Sesame',
   },
@@ -69,7 +70,7 @@ const displaylist = [
     star: ' ',
     rating: ' ',
     kg: '100 g',
-    mrp: '90',
+    mrp: '90',screen:"Bakery",
     actmrp: 'Rs 85',
     about:
       'This artisan garlic bread is a real treat, perfect for any occasion, drenched in butter and herb mixture. Generally served along with pasta and other main courses, all around the world',
@@ -81,7 +82,7 @@ const displaylist = [
     image: require('../../../../assets/images/Bakery/snacks/one.jpg'),
     brand: 'THE BAKERS DOZEN',
     name: 'Gingerbread Men',
-    star: '4',
+    star: '4',screen:"Bakery",
     rating: '32541 Rating',
     kg: '250 g - Pack of 12',
     mrp: '202.50',

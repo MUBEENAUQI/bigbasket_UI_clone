@@ -32,6 +32,7 @@ const displaylist = [
     kg: '2 kg',
     mrp: '120',
     actmrp: 'Rs 95',
+    screen: 'Foodgrains',
     about:
       'Sugar is finished from organic sugar cane, the grains are light cream colored. It is an improved option as opposed to refined sugar that is pure white in color. ',
     about2:
@@ -45,6 +46,7 @@ const displaylist = [
     rating: '1856 Rating',
     kg: '100g',
     mrp: '30',
+    screen: 'Foodgrains',
     actmrp: 'Rs 21',
     about:
       'It is recommended to include turmeric powder to each and every preparation of yours, as it contains antiseptic properties. ',
@@ -60,6 +62,7 @@ const displaylist = [
     rating: '8526 Rating',
     kg: '1 kg-Pouch',
     mrp: '170',
+    screen: 'Foodgrains',
     actmrp: 'Rs 128',
     about:
       'Toor Dal completes the Indian platter with its distinctive inherent flavor, fragrance and nutrition. These are wealthy source of protein and simple to digest and cook. It is tasty flavor and contains high nutritional value.',
@@ -73,6 +76,7 @@ const displaylist = [
     brand: 'BB ROYAL',
     name: 'Sooji Ordinary/Bombay Rava',
     star: '4.1',
+    screen: 'Foodgrains',
     rating: ' 5694Ratings',
     kg: '1 kg-Pouch',
     mrp: 'Rs 60',
@@ -87,6 +91,7 @@ const displaylist = [
     brand: 'BB ROYAL',
     name: 'Toor Dal/Arhar Dal-Desi',
     star: '4',
+    screen: 'Foodgrains',
     rating: '8526 Rating',
     kg: '1 kg-Pouch',
     mrp: '170',

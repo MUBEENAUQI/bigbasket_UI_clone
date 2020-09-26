@@ -30,6 +30,7 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 273.75',
     actmrp: 'Rs 19',
+    screen: 'Fruits',
     about:
       'With a segmented flesh that has a unique pleasant aroma and a strong sour taste, lemons are round/oval and have a yellow, texturized external peel. ',
     about2:
@@ -40,6 +41,7 @@ const vegimages = [
     vegname: 'Coriander Leaves',
     kg: '100 g',
     mrp: 'Rs 11.25',
+    screen: 'Fruits',
     actmrp: 'Rs 9',
     about:
       'Coriander leaves are green, fragile with a decorative appearance. They contain minimal aroma and have a spicy sweet taste. Now do not bother wasting time cutting off the roots as we value your money and time and provide you the freshest leafy edible parts . ',
@@ -50,6 +52,7 @@ const vegimages = [
     image: require('../../../../assets/images/herbal/chil.jpg'),
     vegname: 'Chilly-Green Long,Medium',
     kg: '250 g',
+    screen: 'Fruits',
     mrp: 'Rs 22.50',
     actmrp: 'Rs 12.50',
     about:
@@ -62,6 +65,7 @@ const vegimages = [
     vegname: 'Ginger,Organically Grown',
     kg: '100 g',
     mrp: 'Rs 20',
+    screen: 'Fruits',
     actmrp: 'Rs 16',
     about:
       'Rich in dietary fibre, so, it eases digestion. Protects against cancer and stimulates the cooling centre of the brain by lowering body temperature. This is the reason why in a hot place like India, chillies are consumed a lot. It also possesses anti-bacterial properties.',
@@ -73,6 +77,7 @@ const vegimages = [
     image: require('../../../../assets/images/herbal/garlic.jpg'),
     vegname: 'Garlic',
     kg: '250 g',
+    screen: 'Fruits',
     mrp: 'Rs 61.25',
     actmrp: 'Rs 37.50',
     about:

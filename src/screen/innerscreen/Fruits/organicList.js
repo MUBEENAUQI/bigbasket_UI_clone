@@ -24,6 +24,7 @@ const vegimages = [
     vegname: 'Tomato-local,organically Grown',
     kg: '500 g',
     mrp: 'Rs 27.50',
+    screen: 'Fruits',
     actmrp: 'Rs 22',
     about:
       'Fresho brings to you an exquisite range of locally grown organic tomatoes, which are now available at bigbasket. These organic tomatoes are free from harmful pesticides and insecticides and thus have a very natural and tangy taste, which is attributed to its healthy soil growth. The ripe and firm tomatoes are a luscious addition to any meal.',
@@ -34,6 +35,7 @@ const vegimages = [
     image: require('../../../../assets/images/fruits/coco.jpg'),
     vegname: 'Onion-Organically Grown',
     kg: '1 kg',
+    screen: 'Fruits',
     mrp: 'Rs 28.75',
     actmrp: 'Rs 23',
     about:
@@ -45,6 +47,7 @@ const vegimages = [
     image: require('../../../../assets/images/fruits/tender.jpg'),
     vegname: 'Ginger-Organically Grown',
     kg: '100 g',
+    screen: 'Fruits',
     mrp: 'Rs 20',
     actmrp: 'Rs 16',
     about:
@@ -57,6 +60,7 @@ const vegimages = [
     vegname: 'Chilly-Green,Organically Grown',
     kg: '100 g',
     mrp: 'Rs 10',
+    screen: 'Fruits',
     actmrp: 'Rs 8',
     about:
       'Fresho organically grown green chillies are meant to send shivers up your spine - literally! These chillies are grown in special organic farms, from where they are packaged in hygienic and clean environments to ensure purity. These green chillies are definitely a staple in your refrigerator to create aromatic delicacies.',
@@ -70,6 +74,7 @@ const vegimages = [
     kg: '1 PC',
     mrp: 'Rs 36.25',
     actmrp: 'Rs 29',
+    screen: 'Fruits',
     about:
       'It is organically grown and handpicked from farm Product image shown is for representation purpose only',
     about2:

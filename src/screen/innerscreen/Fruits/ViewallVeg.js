@@ -30,6 +30,7 @@ const vegimages = [
     vegname: 'pomegranate',
     kg: '4 PCS-(approx.800 to ..)',
     mrp: 'Rs 161.25',
+    screen: 'Fruits',
     actmrp: 'Rs 129',
     about:
       'With ruby color and an intense floral, sweet-tart flavor, the pomegranate delivers both taste and beauty. You can remove the skin and the membranes to get at the delicious fruit with nutty seeds. Fresho Pomegranates are finely sorted and graded to deliver the best tasting pomegranates to you. ',
@@ -43,6 +44,7 @@ const vegimages = [
     kg: '100 g-Multipack',
     mrp: 'Rs 138.75',
     actmrp: 'Rs 111',
+    screen: 'Fruits',
     about:
       'Garlic is made of several heads wrapped in thin whitish layers. They are firm and have a mild flavour. Once crushed, they emit a strong and pungent aroma.',
     about2:
@@ -53,6 +55,7 @@ const vegimages = [
     vegname: 'Mushrooms-Button',
     kg: '200 g',
     mrp: 'Rs 61.25',
+    screen: 'Fruits',
     actmrp: 'Rs 49',
     about:
       'Buttom mushrooms are very small sized mushrooms with smooth round caps and short stems. They have a mild flavour with a good texture that becomes more fragrant and meaty when cooked. ',
@@ -64,6 +67,7 @@ const vegimages = [
     image: require('../../../../assets/images/sprouts/ten.jpg'),
     vegname: 'Tender Coconut-Medium',
     kg: '1PC',
+    screen: 'Fruits',
     mrp: 'Rs46.25',
     actmrp: 'Rs 37',
     about:
@@ -75,6 +79,7 @@ const vegimages = [
     image: require('../../../../assets/images/sprouts/tend.jpg'),
     vegname: 'Tender Coconut-Small',
     kg: '1 PC',
+    screen: 'Fruits',
     mrp: 'Rs 45',
     actmrp: 'Rs 36',
     about:

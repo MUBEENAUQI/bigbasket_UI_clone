@@ -35,6 +35,7 @@ class DisplayList extends Component {
                   productImage: data.image,
                   about1: data.about,
                   about2: data.about2,
+                  screen: data.screen,
                 })
               }>
               <Image

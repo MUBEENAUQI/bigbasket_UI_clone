@@ -29,6 +29,7 @@ const displaylist = [
     star: '4',
     rating: '25884 Rating',
     kg: '100 g',
+    screen: 'Foodgrains',
     mrp: '50',
     actmrp: 'Rs 24',
     about:
@@ -45,6 +46,7 @@ const displaylist = [
     kg: '200 g ',
     mrp: '50',
     actmrp: 'Rs 25',
+    screen: 'Foodgrains',
     about:
       'Organic Mustard adds a different flavour to the food and it is a necessary part of the Indian cooking. Moreover, the seeds have always been well-known for their medical properties. It is free from synthetic chemicals and pesticides.',
     about2:
@@ -56,6 +58,7 @@ const displaylist = [
     brand: 'BB ROYAL',
     name: 'Cooking Soda',
     star: '4',
+    screen: 'Foodgrains',
     rating: '4226 Rating',
     kg: '50 g',
     mrp: '20',
@@ -73,6 +76,7 @@ const displaylist = [
     star: '4.1',
     rating: '1856 Rating',
     kg: '100g',
+    screen: 'Foodgrains',
     mrp: '30',
     actmrp: 'Rs 21',
     about:

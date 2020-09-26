@@ -32,6 +32,7 @@ const vegimages = [
     kg: '4 PCS-(approx.800 to ..)',
     mrp: 'Rs 148.75',
     actmrp: 'Rs 119',
+    screen: 'Fruits',
     about:
       'With ruby color and an intense floral, sweet-tart flavor, the pomegranate delivers both taste and beauty. You can remove the skin and the membranes to get at the delicious fruit with nutty seeds. Fresho Pomegranates are finely sorted and graded to deliver the best tasting pomegranates to you.',
     about2:
@@ -43,6 +44,7 @@ const vegimages = [
     vegname: 'BANANA-Yelakki',
     kg: '1 kg',
     mrp: 'Rs 105',
+    screen: 'Fruits',
     actmrp: 'Rs 65',
     about:
       'Tiny and small sized, this variety is called Yelakki in Bangalore and Elaichi in Mumbai. Despite its small size, they are naturally flavoured, aromatic and sweeter compared to regular bananas. Yelakki bananas are around 3- 4 inches long and contain a thinner skin and better shelf life than Robusta bananas. ',
@@ -54,6 +56,7 @@ const vegimages = [
     vegname: 'Watermelon-Small',
     kg: '1 PC-1.7 -2.5 kg',
     mrp: 'Rs 36.25',
+    screen: 'Fruits',
     actmrp: 'Rs 16.80',
     about:
       'With greenish black to smooth dark green surface, Fresho watermelons are globular in shape and are freshly picked for you directly from our farmers .The juicy, sweet and grainy textured flesh is filled with 12-14% of sugar content, making it a healthy alternative to sugary carbonated drinks. Flesh colour of these watermelons are pink to red with dark brown/black seeds.',
@@ -64,6 +67,7 @@ const vegimages = [
     image: require('../../../../assets/images/fruits/coco.jpg'),
     vegname: 'Coconut - Medium',
     kg: '1 PC',
+    screen: 'Fruits',
     mrp: 'Rs 32.50',
     actmrp: 'Rs 26',
     about:
@@ -77,6 +81,7 @@ const vegimages = [
     kg: '1 PC',
     mrp: 'Rs 46.25',
     actmrp: 'Rs 37',
+    screen: 'Fruits',
     about:
       'Young, fresh and healthy tender coconuts are a pure, tasty and nutritious energy drink that keeps body hydrated round the clock. Tender coconut is the most refreshing drink and best to quench your thirst in the summer.',
     about2:

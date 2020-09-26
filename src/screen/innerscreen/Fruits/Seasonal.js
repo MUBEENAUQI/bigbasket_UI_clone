@@ -25,6 +25,7 @@ const vegimages = [
     image: require('../../../../assets/images/fruits/coco.jpg'),
     vegname: 'Coconut - Medium',
     kg: '1 PC',
+    screen: 'Fruits',
     mrp: 'Rs 31.25',
     actmrp: 'Rs 25',
     about:
@@ -38,6 +39,7 @@ const vegimages = [
     kg: '1 PC',
     mrp: 'Rs 46.25',
     actmrp: 'Rs 37',
+    screen: 'Fruits',
     about:
       'Coconut is a very stable fruit. It is a mature fruit of the cocos nucifera palm. The fruit is nearly spherical to oval in shape and measure between 5-10 inches in width. Its rough external husk is light green, and turns gray as the nut grown-up. The husk is about 1-2 inches in thickness and made of tough fibers. ',
     about2:
@@ -49,6 +51,7 @@ const vegimages = [
     kg: '4 PCS-(approx.800 to ..)',
     mrp: 'Rs 161.25',
     actmrp: 'Rs 129',
+    screen: 'Fruits',
     about:
       'With ruby color and an intense floral, sweet-tart flavor, the pomegranate delivers both taste and beauty. You can remove the skin and the membranes to get at the delicious fruit with nutty seeds. Fresho Pomegranates are finely sorted and graded to deliver the best tasting pomegranates to you.',
     about2:
@@ -59,6 +62,7 @@ const vegimages = [
     vegname: 'Watermelon-Small',
     kg: '1 PC-1.7 -2.5 kg',
     mrp: 'Rs 36.25',
+    screen: 'Fruits',
     actmrp: 'Rs 16.80',
     about:
       'With greenish black to smooth dark green surface, Fresho watermelons are globular in shape and are freshly picked for you directly from our farmers The juicy, sweet and grainy textured flesh is filled with 12-14% of sugar content, making it a healthy alternative to sugary carbonated drinks. Flesh colour of these watermelons are pink to red with dark brown/black seeds.',
@@ -70,6 +74,7 @@ const vegimages = [
     image: require('../../../../assets/images/fruits/apple.jpg'),
     vegname: 'Apple-Red Delicious/Washington-Regular',
     kg: '$PC',
+    screen: 'Fruits',
     mrp: 'Rs 206.25',
     actmrp: 'Rs 165',
     about:

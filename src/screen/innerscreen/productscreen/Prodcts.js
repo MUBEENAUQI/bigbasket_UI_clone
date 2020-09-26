@@ -10,17 +10,25 @@ import {
   TouchableOpacity,
   FlatList,
   Dimensions,
+  TouchableHighlight,
 } from 'react-native';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import LinearGradient from 'react-native-linear-gradient';
 
-export default class Products extends React.Component {
+import {useNavigation} from '@react-navigation/native';
+export default function (props) {
+  const navigation = useNavigation();
+
+  return <Products {...props} navigation={navigation} />;
+}
+class Products extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
+    const screens = this.props.route.params.screen;
     return (
       <SafeAreaView style={{flex: 1}}>
         <StatusBar backgroundColor="#87be56" barStyle="light-content" />
@@ -30,15 +38,20 @@ export default class Products extends React.Component {
             start={{x: 0, y: 1}}
             end={{x: 1, y: 1}}
             style={styles.header}>
-            <EvilIcons
-              style={{
-                fontSize: 50,
-                color: 'white',
-                marginTop: 0,
-                marginLeft: 10,
-              }}
-              name="chevron-left"
-            />
+            <TouchableHighlight
+              onPress={() =>
+                this.props.navigation.navigate(this.props.route.params.screen)
+              }>
+              <EvilIcons
+                style={{
+                  fontSize: 50,
+                  color: 'white',
+                  marginTop: 0,
+                  marginLeft: 10,
+                }}
+                name="chevron-left"
+              />
+            </TouchableHighlight>
             <View style={{flexDirection: 'row'}}>
               <EvilIcons
                 style={{fontSize: 35, color: 'white', paddingRight: 14}}

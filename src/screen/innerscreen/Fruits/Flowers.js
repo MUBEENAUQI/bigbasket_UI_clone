@@ -30,6 +30,7 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 87.50',
     actmrp: 'Rs 70',
+    screen: 'Fruits',
     about:
       'This cut roses with different (3-4) colours, can be used for garlands in the home, decorate in festivals and pooja. Product image shown is for representation purpose only, the actual product may vary based on season, produce & availability.',
     about2:
@@ -41,6 +42,7 @@ const vegimages = [
     kg: '100 g',
     mrp: 'Rs 25',
     actmrp: 'Rs 20',
+    screen: 'Fruits',
     about:
       'Marigolds have daisy-like or twice, carnation-like flower heads and are produced separately or in clusters. Marigolds come in special colours, yellow and orange being the most common. It is used for pooja needs and floral decoration. Product image shown is for representation purpose only, the actual product may vary based on season, produce & availability.',
     about2:
@@ -51,6 +53,7 @@ const vegimages = [
     vegname: 'Chrysanthemum(Shevanti)',
     kg: '250 g',
     mrp: 'Rs 70',
+    screen: 'Fruits',
     actmrp: 'Rs 56',
     about:
       "This versatile and low-maintenance flower is perfect for every setting, and with its long shelf life, you'll be falling in love with the Chrysanthemum every day! Perfect for your everyday puja.",
@@ -61,6 +64,7 @@ const vegimages = [
     image: require('../../../../assets/images/flower/banleaf.jpg'),
     vegname: 'Banana Leaf',
     kg: '5 PCS',
+    screen: 'Fruits',
     mrp: 'Rs 22.70',
     actmrp: 'Rs 22',
     about:
@@ -72,6 +76,7 @@ const vegimages = [
     image: require('../../../../assets/images/flower/yellow.jpg'),
     vegname: 'Marigold-Yellow',
     kg: '250 g',
+    screen: 'Fruits',
     mrp: 'Rs 42.50',
     actmrp: 'Rs 34',
     about:

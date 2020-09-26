@@ -30,6 +30,7 @@ const vegimages = [
     vegname: 'Sprouts-Mixed Gram',
     kg: '200 g',
     mrp: 'Rs 33.75',
+    screen: 'Fruits',
     actmrp: 'Rs 27',
     about:
       'Sprouts Mixed gram are fine for health which contains greater concentration of nutrients like Vitamin E, A, C & K, iron, potassium, phyto chemicals, bioflavonoids, antioxidants, protein and chemo-protectants. It can be served at any point throughout the meal. Sprouts are referred to as medicine because of their health promoting properties. ',
@@ -43,6 +44,7 @@ const vegimages = [
     kg: '100 g-Multipack',
     mrp: 'Rs 138.75',
     actmrp: 'Rs 111',
+    screen: 'Fruits',
     about:
       'With garlic supplementation significantly reducing aortic plaque deposits of cholesterol-fed rabbits. Supplementation with garlic extract inhibited vascular calcification in human patients with high blood cholesterol. The known vasodilative effect of garlic is possibly caused by catabolism of garlic-derived polysulfides to hydrogen sulfide in red blood cells (RBCs), a reaction that is dependent on reduced thiols in or on the RBC membrane.',
     about2:
@@ -52,6 +54,7 @@ const vegimages = [
     image: require('../../../../assets/images/sprouts/co.jpg'),
     vegname: 'Baby Corn-Peeled',
     kg: '250 g',
+    screen: 'Fruits',
     mrp: 'Rs 51.25',
     actmrp: 'Rs 41',
     about:
@@ -64,6 +67,7 @@ const vegimages = [
     image: require('../../../../assets/images/sprouts/ten.jpg'),
     vegname: 'Tender Coconut-Medium',
     kg: '1PC',
+    screen: 'Fruits',
     mrp: 'Rs46.25',
     actmrp: 'Rs 37',
     about:

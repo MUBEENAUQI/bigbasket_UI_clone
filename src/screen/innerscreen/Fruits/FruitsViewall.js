@@ -36,6 +36,7 @@ const displaylist = [
     kg: '500 g',
     mrp: 'Rs 27.50',
     actmrp: 'Rs 22',
+    screen: 'Fruits',
     about:
       'Fresho brings to you an exquisite range of locally grown organic tomatoes, which are now available at bigbasket. These organic tomatoes are free from harmful pesticides and insecticides and thus have a very natural and tangy taste, which is attributed to its healthy soil growth. The ripe and firm tomatoes are a luscious addition to any meal.',
     about2:
@@ -46,6 +47,7 @@ const displaylist = [
     vegname: 'Ginger-Organically Grown',
     kg: '100 g',
     mrp: 'Rs 20',
+    screen: 'Fruits',
     actmrp: 'Rs 16',
     about:
       'Fresho Organic products are organically grown and handpicked by expert. Product image shown is for representation purpose only, the actually product may vary based on season, produce & availability.',
@@ -58,6 +60,7 @@ const displaylist = [
     vegname: 'ONION',
     kg: '1 kg',
     mrp: 'Rs 30',
+    screen: 'Fruits',
     actmrp: 'Rs 19',
     about:
       'Onion is a vegetable which is almost like a staple in Indian food. This is also known to be one of the essential ingredients of raw salads. They come in different colours like white, red or yellow and are quite in demand in cold salads and hot soups. ',
@@ -69,6 +72,7 @@ const displaylist = [
     image: require('../../../../assets/images/vegImage/carr.jpg'),
     vegname: 'CARROT-LOCAL',
     kg: '250 g',
+    screen: 'Fruits',
     mrp: 'Rs 17.50',
     actmrp: 'Rs 14',
     about:
@@ -80,6 +84,7 @@ const displaylist = [
     image: require('../../../../assets/images/vegImage/lf.jpg'),
     vegname: 'LADIES-FINGER',
     kg: '500 g',
+    screen: 'Fruits',
     mrp: 'Rs 20',
     actmrp: 'Rs 16',
     about:
@@ -93,6 +98,7 @@ const displaylist = [
     vegname: 'PALAK',
     kg: '100 g',
     mrp: 'Rs 10',
+    screen: 'Fruits',
     actmrp: 'Rs 8',
     about:
       'We deliver palak leaves in the best hygienic packages which can be directly stored in the refrigerator. They keep well for upto 4 days.Palaks can be eaten raw or cooked. Cooked palaks help in absorption of essential minerals in the body. They can be boiled and added to salads, pastas, soups or fried and used in dal and curries.',

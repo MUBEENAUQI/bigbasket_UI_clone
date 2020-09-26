@@ -26,6 +26,7 @@ const displaylist = [
     brand: 'FRESHO SIGNATURE',
     name: 'Fruit Tea Cake',
     star: ' ',
+    screen: 'Bakery',
     rating: ' ',
     kg: '200 g ',
     mrp: ' ',
@@ -42,6 +43,7 @@ const displaylist = [
     star: ' ',
     rating: ' ',
     kg: '200 g  ',
+    screen: 'Bakery',
     mrp: ' ',
     actmrp: 'Rs 159 ',
     about:
@@ -56,6 +58,7 @@ const displaylist = [
     name: 'Fruit Cake',
     star: ' ',
     rating: ' ',
+    screen: 'Bakery',
     kg: '120 g',
     mrp: ' ',
     actmrp: 'Rs 20.10',
@@ -71,6 +74,7 @@ const displaylist = [
     name: 'Marble Tea Cake',
     star: ' ',
     rating: ' ',
+    screen: 'Bakery',
     kg: '250 g ',
     mrp: ' ',
     about:
@@ -86,6 +90,7 @@ const displaylist = [
     star: ' ',
     rating: ' ',
     kg: '250 g',
+    screen: 'Bakery',
     mrp: '    ',
     actmrp: 'Rs 159',
     about:
@@ -98,6 +103,7 @@ const displaylist = [
     brand: 'MOTHER DAIRY',
     name: 'Misti Doi',
     star: '4.1',
+    screen: 'Bakery',
     rating: '1350 Ratings',
     kg: '85 g -  Cup',
     mrp: '22.50',

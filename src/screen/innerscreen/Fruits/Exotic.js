@@ -25,6 +25,7 @@ const vegimages = [
     kg: '200 g',
     mrp: 'Rs 61.25',
     actmrp: 'Rs 49',
+    screen: 'Fruits',
     about:
       'Buttom mushrooms are very small sized mushrooms with smooth round caps and short stems. They have a mild flavour with a good texture that becomes more fragrant and meaty when cooked. ',
     about2:
@@ -34,6 +35,7 @@ const vegimages = [
     image: require('../../../../assets/images/exotic/corn.jpg'),
     vegname: 'Sweet Corn',
     kg: '2 PC',
+    screen: 'Fruits',
     mrp: 'Rs 36.25',
     actmrp: 'Rs 29',
     about:
@@ -45,6 +47,7 @@ const vegimages = [
     image: require('../../../../assets/images/exotic/cucumber.jpg'),
     vegname: 'Cucumber-English',
     kg: '500 g',
+    screen: 'Fruits',
     mrp: 'Rs 25',
     actmrp: 'Rs 20',
     about:
@@ -56,6 +59,7 @@ const vegimages = [
     image: require('../../../../assets/images/exotic/avac.jpg'),
     vegname: 'Avacado',
     kg: '500 g',
+    screen: 'Fruits',
     mrp: 'Rs 123.75',
     actmrp: 'Rs 99',
     about:
@@ -68,6 +72,7 @@ const vegimages = [
     image: require('../../../../assets/images/exotic/bro.jpg'),
     vegname: 'Broccoli',
     kg: '500 g',
+    screen: 'Fruits',
     mrp: 'Rs 106.25',
     actmrp: 'Rs 85',
     about:

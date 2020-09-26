@@ -28,6 +28,7 @@ const displaylist = [
     rating: '13292 Rating',
     kg: '2 kg',
     mrp: '120',
+    screen: 'Foodgrains',
     actmrp: 'Rs 95',
     about:
       'Sugar is finished from organic sugar cane, the grains are light cream colored. It is an improved option as opposed to refined sugar that is pure white in color.',
@@ -42,6 +43,7 @@ const displaylist = [
     rating: '43184 Rating',
     kg: '5kg',
     mrp: '275',
+    screen: 'Foodgrains',
     actmrp: 'Rs 207',
     about:
       'Sugar is finished from organic sugar cane, the grains are light cream colored. It is an improved option as opposed to refined sugar that is pure white in color.',
@@ -57,6 +59,7 @@ const displaylist = [
     rating: '33571 Rating',
     kg: '1 kg-Pouch',
     mrp: '20',
+    screen: 'Foodgrains',
     actmrp: 'Rs 19.80',
     about:
       'Tata and quality are synonymous in the world today. Tata Iodized Salt has been a staple in kitchens for generations now. This salt was first manufactured by Tata in a vacuum sealed pack, around the year 1983. ',
@@ -72,6 +75,7 @@ const displaylist = [
     rating: '1856 Rating',
     kg: 'Combo -2Ithems',
     mrp: '471',
+    screen: 'Foodgrains',
     actmrp: 'Rs 356',
     about:
       'bb Royal Honey is 100% pure and natural multi-floral honey, sourced from theƒ€š‚ pine forests atƒ€š‚ the Himalayan foothills. Filled with natural goodness, this export quality premium honey is a healthy substitute to sugar.',
