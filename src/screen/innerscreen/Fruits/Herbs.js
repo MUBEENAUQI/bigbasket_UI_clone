@@ -30,6 +30,10 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 273.75',
     actmrp: 'Rs 19',
+    about:
+      'With a segmented flesh that has a unique pleasant aroma and a strong sour taste, lemons are round/oval and have a yellow, texturized external peel. ',
+    about2:
+      'Lemon promotes hydration and keeps the skin healthy. They help ease digestion, prevents kidney stones and freshens breath. Lemons are a very good source of Vitamin C.',
   },
   {
     image: require('../../../../assets/images/herbal/coria.jpg'),
@@ -37,6 +41,10 @@ const vegimages = [
     kg: '100 g',
     mrp: 'Rs 11.25',
     actmrp: 'Rs 9',
+    about:
+      'Coriander leaves are green, fragile with a decorative appearance. They contain minimal aroma and have a spicy sweet taste. Now do not bother wasting time cutting off the roots as we value your money and time and provide you the freshest leafy edible parts . ',
+    about2:
+      'Coriander leaves fight food poisoning and lower blood sugar levels. They relieve urinary tract infections and help in maintaining a healthy menstrual cycle while preventing neurological inflammations and diseases. ',
   },
   {
     image: require('../../../../assets/images/herbal/chil.jpg'),
@@ -44,6 +52,10 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 22.50',
     actmrp: 'Rs 12.50',
+    about:
+      'Green chillis are the best kitchen ingredient to bring a dash of spiciness to recipes. The fresh flavour and sharp bite make them a must in almost all Indian dishes. This particular green chilli variety is big.',
+    about2:
+      'Rich in dietary fibre, so, it eases digestion. Protects against cancer and stimulates the cooling centre of the brain by lowering body temperature. This is the reason why in a hot place like India, chillies are consumed a lot. It also possesses anti-bacterial properties.',
   },
   {
     image: require('../../../../assets/images/herbal/ging.jpg'),
@@ -51,6 +63,10 @@ const vegimages = [
     kg: '100 g',
     mrp: 'Rs 20',
     actmrp: 'Rs 16',
+    about:
+      'Rich in dietary fibre, so, it eases digestion. Protects against cancer and stimulates the cooling centre of the brain by lowering body temperature. This is the reason why in a hot place like India, chillies are consumed a lot. It also possesses anti-bacterial properties.',
+    about2:
+      'Ginger root treats morning sickness. They reduce muscle pain, soreness and eases various stomach problems.',
   },
 
   {
@@ -59,6 +75,10 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 61.25',
     actmrp: 'Rs 37.50',
+    about:
+      'Firm and fibrous ginger roots are stretched with multiple fingers that have light to dark tan skin and rings on it and is aromatic, spicy and pungent. The flavour gets intensified when the ginger is dried and lessens when cooked.',
+    about2:
+      'Ginger root treats morning sickness. They reduce muscle pain, soreness and eases various stomach problems.',
   },
 ];
 

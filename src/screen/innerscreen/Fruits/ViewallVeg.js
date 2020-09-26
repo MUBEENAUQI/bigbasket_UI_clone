@@ -31,6 +31,10 @@ const vegimages = [
     kg: '4 PCS-(approx.800 to ..)',
     mrp: 'Rs 161.25',
     actmrp: 'Rs 129',
+    about:
+      'With ruby color and an intense floral, sweet-tart flavor, the pomegranate delivers both taste and beauty. You can remove the skin and the membranes to get at the delicious fruit with nutty seeds. Fresho Pomegranates are finely sorted and graded to deliver the best tasting pomegranates to you. ',
+    about2:
+      'Whole fruit can be refrigirated upto 2 months. Fresh seeds and juice can be refrigerated for upto 5 days.',
   },
 
   {
@@ -39,6 +43,10 @@ const vegimages = [
     kg: '100 g-Multipack',
     mrp: 'Rs 138.75',
     actmrp: 'Rs 111',
+    about:
+      'Garlic is made of several heads wrapped in thin whitish layers. They are firm and have a mild flavour. Once crushed, they emit a strong and pungent aroma.',
+    about2:
+      'Garlic combats sickness, including the common cold and cough. They reduce blood pressure, the risk of heart diseases and kills intestinal worms and harmful bacteria. Additionally garlics improve athletic performance.',
   },
   {
     image: require('../../../../assets/images/exotic/mush.jpg'),
@@ -46,6 +54,10 @@ const vegimages = [
     kg: '200 g',
     mrp: 'Rs 61.25',
     actmrp: 'Rs 49',
+    about:
+      'Buttom mushrooms are very small sized mushrooms with smooth round caps and short stems. They have a mild flavour with a good texture that becomes more fragrant and meaty when cooked. ',
+    about2:
+      'Button mushrooms boost our immune system. They have anticancer benefits. They contain good amounts of riboflavin which is necessary to maintain oral health. They are very low in calories and rich in fiber.',
   },
 
   {
@@ -54,6 +66,10 @@ const vegimages = [
     kg: '1PC',
     mrp: 'Rs46.25',
     actmrp: 'Rs 37',
+    about:
+      'Tender Coconut is a minimally processed young coconut & is fresh,natural and healthy.Its a pure & tasty energy drink with rich vitamins,minerals,glucose,fructose,proteins.It has high potassium content & contains antioxidants.',
+    about2:
+      ".Other biological active ingredients include L-arginine,ascorbic acid & magnesium.Its a nature's gift for mankind. ",
   },
   {
     image: require('../../../../assets/images/sprouts/tend.jpg'),
@@ -61,6 +77,10 @@ const vegimages = [
     kg: '1 PC',
     mrp: 'Rs 45',
     actmrp: 'Rs 36',
+    about:
+      'Tender Coconut is a minimally processed young coconut & is fresh,natural and healthy.Its a pure & tasty energy drink with rich vitamins,minerals,glucose,fructose,proteins.It has high potassium content & contains antioxidants.',
+    about2:
+      ".Other biological active ingredients include L-arginine,ascorbic acid & magnesium.Its a nature's gift for mankind. ",
   },
 ];
 

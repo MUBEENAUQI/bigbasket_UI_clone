@@ -131,7 +131,7 @@ export default class Products extends React.Component {
                 paddingLeft: 30,
                 paddingBottom: 15,
               }}>
-              {VEG3}
+              {this.props.route.params.about1}
             </Text>
           </View>
           <View
@@ -157,10 +157,7 @@ export default class Products extends React.Component {
                 paddingLeft: 30,
                 paddingBottom: 15,
               }}>
-              Please note that fresh fruit and vegetables items will be billed
-              based on exact weight during order processing (in case the actual
-              weight exceeds the requested weight by more than 10%, you will be
-              charged only for 10% excess weight).
+              {this.props.route.params.about2}
             </Text>
           </View>
         </ScrollView>

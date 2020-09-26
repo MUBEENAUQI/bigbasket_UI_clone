@@ -23,6 +23,9 @@ const displaylist = [
     kg: '100 g -Carton',
     mrp: '49.50',
     actmrp: 'Rs 48',
+    about:
+      'Amul Pasteurised Processed Cheddar Cheese is made from Cheese: Sodium Citrate: Common Salt: Citric Acid: permitted natural color - Annatto. Emulsifier and Class II preservatives. It is made from graded cow/buffalo milk using microbial rennet.',
+    about2: 'Wholesome cheese.Good source of Calcium and milk Proteins.',
   },
   {
     image: require('../../../../assets/images/Bakery/cheese/two.jpg'),
@@ -33,6 +36,9 @@ const displaylist = [
     kg: '100 g - Pouch',
     mrp: '72',
     actmrp: 'Rs 71 ',
+    about:
+      'Amul Pasteurised Processed Cheddar Cheese is made from Cheese: Sodium Citrate: Common Salt: Citric Acid: permitted natural color - Annatto. Emulsifier and Class II preservatives. It is made from graded cow/buffalo milk using microbial rennet.',
+    about2: 'Wholesome cheese.Good source of Calcium and milk Proteins.',
   },
 
   {
@@ -44,6 +50,10 @@ const displaylist = [
     kg: '200 g- Pouch',
     mrp: '122.50',
     actmrp: 'Rs 120',
+    about:
+      'Mozzarella is an excellent source of milk proteins, which are palatable. it has a slightly salty blandish taste and pleasant aroma.',
+    about2:
+      'When baked along with pizzas, it melts uniformly, beautifully engulfing all other ingredients of the pizza surface.',
   },
 
   {
@@ -55,6 +65,10 @@ const displaylist = [
     kg: '500 g - Carton',
     mrp: '231.50',
     actmrp: 'Rs 230',
+    about:
+      'Mozzarella is an excellent source of milk proteins, which are palatable. it has a slightly salty blandish taste and pleasant aroma.',
+    about2:
+      'When baked along with pizzas, it melts uniformly, beautifully engulfing all other ingredients of the pizza surface.',
   },
 
   {
@@ -66,6 +80,10 @@ const displaylist = [
     kg: '500 g',
     mrp: '253.50',
     actmrp: 'Rs 250',
+    about:
+      'Mozzarella is an excellent source of milk proteins, which are palatable. it has a slightly salty blandish taste and pleasant aroma.',
+    about2:
+      'When baked along with pizzas, it melts uniformly, beautifully engulfing all other ingredients of the pizza surface.',
   },
   {
     image: require('../../../../assets/images/Bakery/cheese/four.jpg'),
@@ -76,6 +94,9 @@ const displaylist = [
     kg: '500 g - Carton',
     mrp: '231.50',
     actmrp: 'Rs 230',
+    about:
+      'When baked along with pizzas, it melts uniformly, beautifully engulfing all other ingredients of the pizza surface.',
+    about2: 'Wholesome cheese.Good source of Calcium and milk Proteins.',
   },
 ];
 

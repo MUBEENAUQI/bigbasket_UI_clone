@@ -25,6 +25,10 @@ const vegimages = [
     kg: '500 g',
     mrp: 'Rs 27.50',
     actmrp: 'Rs 22',
+    about:
+      'Fresho brings to you an exquisite range of locally grown organic tomatoes, which are now available at bigbasket. These organic tomatoes are free from harmful pesticides and insecticides and thus have a very natural and tangy taste, which is attributed to its healthy soil growth. The ripe and firm tomatoes are a luscious addition to any meal.',
+    about2:
+      'Organic tomatoes are free from harmful chemicals and toxins, plus they are also rich in antioxidants that helps fight diseases like cancer. It also a healthy source of Vitamin C and A (being rich in beta-carotene) along with niacin and folate.',
   },
   {
     image: require('../../../../assets/images/fruits/coco.jpg'),
@@ -32,6 +36,10 @@ const vegimages = [
     kg: '1 kg',
     mrp: 'Rs 28.75',
     actmrp: 'Rs 23',
+    about:
+      'It is organically grown and handpicked from farm Product image shown is for representation purpose only, the actually product may vary based on season, produce & availability.',
+    about2:
+      'Please note that fresh fruit and vegetables items will be billed based on exact weight during order processing (in case the actual weight exceeds the requested weight by more than 10%, you will be charged only for 10% excess weight).',
   },
   {
     image: require('../../../../assets/images/fruits/tender.jpg'),
@@ -39,6 +47,10 @@ const vegimages = [
     kg: '100 g',
     mrp: 'Rs 20',
     actmrp: 'Rs 16',
+    about:
+      'Fresho Organic products are organically grown and handpicked by expert.  Product image shown is for representation purpose only, the actually product may vary based on season, produce & availability. ',
+    about2:
+      'Please note that fresh fruit and vegetables items will be billed based on exact weight during order processing ',
   },
   {
     image: require('../../../../assets/images/fruits/pome.jpg'),
@@ -46,6 +58,10 @@ const vegimages = [
     kg: '100 g',
     mrp: 'Rs 10',
     actmrp: 'Rs 8',
+    about:
+      'Fresho organically grown green chillies are meant to send shivers up your spine - literally! These chillies are grown in special organic farms, from where they are packaged in hygienic and clean environments to ensure purity. These green chillies are definitely a staple in your refrigerator to create aromatic delicacies.',
+    about2:
+      'Green chillies are a spicy treat but they are great for your health. It is rich in a variety of vitamins like A and C. Alongside, it is also laden with Capsaicin, which is known for boosting metabolism and also reducing hunger pangs, thus helping you lose weight.',
   },
 
   {
@@ -54,6 +70,10 @@ const vegimages = [
     kg: '1 PC',
     mrp: 'Rs 36.25',
     actmrp: 'Rs 29',
+    about:
+      'It is organically grown and handpicked from farm Product image shown is for representation purpose only',
+    about2:
+      'Product image shown is for representation purpose only, the actually product may vary based on season, produce & availability.',
   },
 ];
 

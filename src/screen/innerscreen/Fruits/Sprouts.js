@@ -31,6 +31,10 @@ const vegimages = [
     kg: '200 g',
     mrp: 'Rs 33.75',
     actmrp: 'Rs 27',
+    about:
+      'Sprouts Mixed gram are fine for health which contains greater concentration of nutrients like Vitamin E, A, C & K, iron, potassium, phyto chemicals, bioflavonoids, antioxidants, protein and chemo-protectants. It can be served at any point throughout the meal. Sprouts are referred to as medicine because of their health promoting properties. ',
+    about2:
+      'Mixed gram sprouts ensure blood purification and strengthens the immune system to protect against several diseases. It also helps to alleviate itchy scalp because of its anti-fungal properties. It contains omega 3 fatty acids which are vital for the nourishment of hair follicles.',
   },
 
   {
@@ -39,6 +43,10 @@ const vegimages = [
     kg: '100 g-Multipack',
     mrp: 'Rs 138.75',
     actmrp: 'Rs 111',
+    about:
+      'With garlic supplementation significantly reducing aortic plaque deposits of cholesterol-fed rabbits. Supplementation with garlic extract inhibited vascular calcification in human patients with high blood cholesterol. The known vasodilative effect of garlic is possibly caused by catabolism of garlic-derived polysulfides to hydrogen sulfide in red blood cells (RBCs), a reaction that is dependent on reduced thiols in or on the RBC membrane.',
+    about2:
+      'Please note that fresh fruit and vegetables items will be billed based on exact weight during order processing (in case the actual weight exceeds the requested weight by more than 10%, you will be charged only for 10% excess weight).',
   },
   {
     image: require('../../../../assets/images/sprouts/co.jpg'),
@@ -46,6 +54,10 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 51.25',
     actmrp: 'Rs 41',
+    about:
+      "Baby corns are small in size and handpicked before they mature. We deliver them to you fresh and peeled, so no more postponing that corn dish you wanted to make because you didn't get the time. ",
+    about2:
+      'In addition to its delicious sweet taste, baby corns are high in dietary fiber, low in fat and a great source of essential nutrients. They are also high in potassium and folic acid.',
   },
 
   {
@@ -54,13 +66,10 @@ const vegimages = [
     kg: '1PC',
     mrp: 'Rs46.25',
     actmrp: 'Rs 37',
-  },
-  {
-    image: require('../../../../assets/images/sprouts/tend.jpg'),
-    vegname: 'Tender Coconut-Small',
-    kg: '1 PC',
-    mrp: 'Rs 45',
-    actmrp: 'Rs 36',
+    about:
+      'Dry Copra/Coconut is rich in dietary fibre and it helps in having a healthy heart. It improves brain function, boosts the immune system, reduces anaemia and the risk of cancer.',
+    about2:
+      'Product image shown is for representation purpose only, actual product may vary based on season, production and availability.',
   },
 ];
 

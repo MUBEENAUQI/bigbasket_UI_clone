@@ -23,6 +23,10 @@ const displaylist = [
     kg: '500 ml-Pouch',
     mrp: 'Rs 25',
     actmrp: 'Rs 23.50',
+    about:
+      'Goodlife Smart Homogenised Double Toned Milk UHT processed milk with Min 1.5% fat and Min 9.0% SNF fortified with vitamins A and D. ',
+    about2:
+      'Besides its regular use, milk can be used for so many other things.',
   },
   {
     image: require('../../../../assets/images/Bakery/milk/two.jpg'),
@@ -33,6 +37,10 @@ const displaylist = [
     kg: '1 L - Carton',
     mrp: 'Rs 53',
     actmrp: 'Rs 50.35',
+    about:
+      'Goodlife Smart Homogenised Double Toned Milk UHT processed milk with Min 1.5% fat and Min 9.0% SNF fortified with vitamins A and D. ',
+    about2:
+      'Besides its regular use, milk can be used for so many other things.',
   },
 
   {
@@ -44,6 +52,10 @@ const displaylist = [
     kg: '1 l- Carton',
     mrp: 'Rs 72',
     actmrp: 'Rs 64',
+    about:
+      'Goodlife Smart Homogenised Double Toned Milk UHT processed milk with Min 1.5% fat and Min 9.0% SNF fortified with vitamins A and D. ',
+    about2:
+      'Besides its regular use, milk can be used for so many other things.',
   },
 
   {
@@ -55,6 +67,10 @@ const displaylist = [
     kg: '500 ml-Pack of 20',
     mrp: 'Rs 550  ',
     actmrp: 'Rs 500',
+    about:
+      'Goodlife Smart Homogenised Double Toned Milk UHT processed milk with Min 1.5% fat and Min 9.0% SNF fortified with vitamins A and D. ',
+    about2:
+      'Besides its regular use, milk can be used for so many other things.',
   },
   {
     image: require('../../../../assets/images/Bakery/milk/five.jpg'),
@@ -65,6 +81,10 @@ const displaylist = [
     kg: '500 ml-Packof 20',
     mrp: 'Rs  500 ',
     actmrp: 'Rs 480',
+    about:
+      'Goodlife Smart Homogenised Double Toned Milk UHT processed milk with Min 1.5% fat and Min 9.0% SNF fortified with vitamins A and D. ',
+    about2:
+      'Besides its regular use, milk can be used for so many other things.',
   },
   {
     image: require('../../../../assets/images/Bakery/milk/four.jpg'),
@@ -75,6 +95,10 @@ const displaylist = [
     kg: '500 ml-Pack of 20',
     mrp: 'Rs  520 ',
     actmrp: 'Rs 500',
+    about:
+      'Goodlife Smart Homogenised Double Toned Milk UHT processed milk with Min 1.5% fat and Min 9.0% SNF fortified with vitamins A and D. ',
+    about2:
+      'Besides its regular use, milk can be used for so many other things.',
   },
   {
     image: require('../../../../assets/images/Bakery/milk/five.jpg'),
@@ -85,6 +109,10 @@ const displaylist = [
     kg: '500 ml-Packof 20',
     mrp: 'Rs   500',
     actmrp: 'Rs 480',
+    about:
+      'Goodlife Smart Homogenised Double Toned Milk UHT processed milk with Min 1.5% fat and Min 9.0% SNF fortified with vitamins A and D. ',
+    about2:
+      'Besides its regular use, milk can be used for so many other things.',
   },
 ];
 

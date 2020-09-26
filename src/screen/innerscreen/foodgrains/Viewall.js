@@ -32,6 +32,10 @@ const displaylist = [
     kg: '2 kg',
     mrp: '120',
     actmrp: 'Rs 95',
+    about:
+      'Sugar is finished from organic sugar cane, the grains are light cream colored. It is an improved option as opposed to refined sugar that is pure white in color. ',
+    about2:
+      " It is an immense supply of energy and has necessary minerals with no harsh chemicals or additives. Sugar is sucrose that becomes glucose. Sugar's glycolic acid can be very supportive in retaining the wellbeing and look of your skin.",
   },
   {
     image: require('../../../../assets/images/food/masala/four.jpg'),
@@ -42,6 +46,10 @@ const displaylist = [
     kg: '100g',
     mrp: '30',
     actmrp: 'Rs 21',
+    about:
+      'It is recommended to include turmeric powder to each and every preparation of yours, as it contains antiseptic properties. ',
+    about2:
+      ' Utilize it for marination or add it to the meat and vegetables while cooking. This will prevent your food from germs keeping it healthy to consume for a longer time.',
   },
 
   {
@@ -53,6 +61,10 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: '170',
     actmrp: 'Rs 128',
+    about:
+      'Toor Dal completes the Indian platter with its distinctive inherent flavor, fragrance and nutrition. These are wealthy source of protein and simple to digest and cook. It is tasty flavor and contains high nutritional value.',
+    about2:
+      'Toor dal contains folic acid essential for fetal development in pregnancy. It is an excellent source of nutrients and plant protein, and they also contain dietary fiber.',
   },
 
   {
@@ -65,6 +77,10 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: 'Rs 60',
     actmrp: 'Rs 48',
+    about:
+      'The BB Royal Sooji or semolina is packed with health benefits. It is actually anything but ordinary because it has been sourced from the finest of durum wheat and then packaged hygenically so that it doesnt get affected by humidity. ',
+    about2:
+      'Sooji, is known for being light on the palette and having the goodness of digestive fibres from wheat. It melts in the mouth, making it light for infants too. It has minerals and vitamins, which boost your overall health. Being low in calorie, it also helps in managing your weight.',
   },
   {
     image: require('../../../../assets/images/food/dal/one.jpg'),
@@ -75,18 +91,10 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: '170',
     actmrp: 'Rs 128',
-  },
-
-  {
-    image: require('../../../../assets/images/food/besan20.jpg'),
-    type: 'BB RECOMMENDS',
-    brand: 'BB ROYAL',
-    name: 'Sooji Ordinary/Bombay Rava',
-    star: '4.1',
-    rating: ' 5694Ratings',
-    kg: '1 kg-Pouch',
-    mrp: 'Rs 60',
-    actmrp: 'Rs 48',
+    about:
+      'Toor Dal is the most widely-used form of the lentil. It is used in famous recipes. It contains a thick gelatinous or meaty texture, & takes a little longer to cook than moong or masoor dal.',
+    about2:
+      'It is fine for health and fulfills the energy. It contains a delectable taste with simple digestion and has long shelf life. Toor Dal contains rich nutritional value.',
   },
 ];
 

@@ -7,11 +7,18 @@ import {
   StatusBar,
   View,
   Image,
+  TouchableHighlight,
 } from 'react-native';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import LinearGradient from 'react-native-linear-gradient';
-export default class Header extends React.Component {
+import {useNavigation} from '@react-navigation/native';
+export default function (props) {
+  const navigation = useNavigation();
+
+  return <Header {...props} navigation={navigation} />;
+}
+class Header extends React.Component {
   render() {
     return (
       <LinearGradient
@@ -28,12 +35,15 @@ export default class Header extends React.Component {
                 alignItems: 'center',
                 paddingHorizontal: 15,
               }}>
-              <SimpleLineIcons
-                name={data.name}
-                size={17}
-                color="white"
-                style={{paddingVertical: 15, paddingLeft: 3}}
-              />
+              <TouchableHighlight
+                onPress={() => this.props.navigation.navigate('HomeScreen')}>
+                <SimpleLineIcons
+                  name={data.name}
+                  size={17}
+                  color="white"
+                  style={{paddingVertical: 15, paddingLeft: 3}}
+                />
+              </TouchableHighlight>
               <View style={styles.textbox}>
                 <Text style={styles.text}>{data.text}</Text>
               </View>

@@ -31,6 +31,10 @@ const displaylist = [
     kg: '100 g',
     mrp: '50',
     actmrp: 'Rs 24',
+    about:
+      'Pro Nature Organic Cumin (whole) offers you one of the greatest and fresh Cumin, which is popularly well-known for special and important a spice that gives an extreme pleasure.',
+    about2:
+      ' It consists of many phyto-chemicals that are known to have antioxidant, anti-flatulent and carminative properties. It is 100% certified organic and have natural nutrients needed for a healthy diet.',
   },
   {
     image: require('../../../../assets/images/food/masala/two.jpg'),
@@ -41,6 +45,10 @@ const displaylist = [
     kg: '200 g ',
     mrp: '50',
     actmrp: 'Rs 25',
+    about:
+      'Organic Mustard adds a different flavour to the food and it is a necessary part of the Indian cooking. Moreover, the seeds have always been well-known for their medical properties. It is free from synthetic chemicals and pesticides.',
+    about2:
+      'It contains magnesium, calcium, iron, zinc and protein. This amazing mustard seeds will prevent the risk of cancer, improves cardiovascular health, and cures aches.',
   },
 
   {
@@ -52,6 +60,10 @@ const displaylist = [
     kg: '50 g',
     mrp: '20',
     actmrp: 'Rs 7',
+    about:
+      'Cooking Soda is a general ingredient in many food recipes and found in almost every house. ',
+    about2:
+      'It is sodium bicarbonate, which is an antacid. Baking soda contains been broadly used as a household cleaner and a health and beauty product for an amount of years.',
   },
 
   {
@@ -63,6 +75,10 @@ const displaylist = [
     kg: '100g',
     mrp: '30',
     actmrp: 'Rs 21',
+    about:
+      'It is recommended to include turmeric powder to each and every preparation of yours, as it contains antiseptic properties. Utilize it for marination or add it to the meat and vegetables while cooking. ',
+    about2:
+      'This will prevent your food from germs keeping it healthy to consume for a longer time.BB Royal Organic Turmeric powder is prepared from organically grown turmeric.',
   },
 ];
 

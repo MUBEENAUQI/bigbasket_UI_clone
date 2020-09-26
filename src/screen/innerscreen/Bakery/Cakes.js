@@ -30,6 +30,10 @@ const displaylist = [
     kg: '200 g ',
     mrp: ' ',
     actmrp: 'Rs 175',
+    about:
+      'Fabulous flavour, simply stated, for anytime enjoyment.  A great accompaniment to bond over tea. ',
+    about2:
+      'Enjoy it all by yourself or with family and friends. Made with premium quality ingredients, the taste is surely going to tame your tastebuds. ',
   },
   {
     image: require('../../../../assets/images/Bakery/cakes/two.jpg'),
@@ -40,6 +44,10 @@ const displaylist = [
     kg: '200 g  ',
     mrp: ' ',
     actmrp: 'Rs 159 ',
+    about:
+      'We use pieces finely chopped bananas, roasted walnuts and a dash of brown sugar to make this deliciously moist cake. ',
+    about2:
+      'Made with premium quality ingredients, the taste is surely going to tame your tastebuds. ',
   },
 
   {
@@ -51,6 +59,10 @@ const displaylist = [
     kg: '120 g',
     mrp: ' ',
     actmrp: 'Rs 20.10',
+    about:
+      'Fabulous flavour, simply stated, for anytime enjoyment.  A great accompaniment to bond over tea. ',
+    about2:
+      'Enjoy it all by yourself or with family and friends. Made with premium quality ingredients, the taste is surely going to tame your tastebuds. ',
   },
 
   {
@@ -61,7 +73,10 @@ const displaylist = [
     rating: ' ',
     kg: '250 g ',
     mrp: ' ',
-    actmrp: 'Rs 159',
+    about:
+      'Fabulous flavour, simply stated, for anytime enjoyment.  A great accompaniment to bond over tea. ',
+    about2:
+      'Enjoy it all by yourself or with family and friends. Made with premium quality ingredients, the taste is surely going to tame your tastebuds. ',
   },
 
   {
@@ -73,6 +88,10 @@ const displaylist = [
     kg: '250 g',
     mrp: '    ',
     actmrp: 'Rs 159',
+    about:
+      'We use pieces finely chopped bananas, roasted walnuts and a dash of brown sugar to make this deliciously moist cake. ',
+    about2:
+      'Made with premium quality ingredients, the taste is surely going to tame your tastebuds. ',
   },
   {
     image: require('../../../../assets/images/Bakery/paneer/one.jpg'),
@@ -83,6 +102,10 @@ const displaylist = [
     kg: '85 g -  Cup',
     mrp: '22.50',
     actmrp: 'Rs 20',
+    about:
+      'We use pieces finely chopped bananas, roasted walnuts and a dash of brown sugar to make this deliciously moist cake. ',
+    about2:
+      'Made with premium quality ingredients, the taste is surely going to tame your tastebuds. ',
   },
 ];
 

@@ -25,6 +25,10 @@ const vegimages = [
     kg: '200 g',
     mrp: 'Rs 61.25',
     actmrp: 'Rs 49',
+    about:
+      'Buttom mushrooms are very small sized mushrooms with smooth round caps and short stems. They have a mild flavour with a good texture that becomes more fragrant and meaty when cooked. ',
+    about2:
+      'Button mushrooms boost our immune system. They have anticancer benefits. They contain good amounts of riboflavin which is necessary to maintain oral health. They are very low in calories and rich in fiber. ',
   },
   {
     image: require('../../../../assets/images/exotic/corn.jpg'),
@@ -32,6 +36,10 @@ const vegimages = [
     kg: '2 PC',
     mrp: 'Rs 36.25',
     actmrp: 'Rs 29',
+    about:
+      'Wrapped in lime coloured husks with silk, sweet corn contains numerous yellow succulent kernels that have a starchy and doughy consistency. The skin pops out as you bite into it. ',
+    about2:
+      "Sweet corn is good for vision and heart health. It is a good source of energy and reduces joint pains. Suggested as a regular diet for pregnant women and Alzheimer's patients. ",
   },
   {
     image: require('../../../../assets/images/exotic/cucumber.jpg'),
@@ -39,6 +47,10 @@ const vegimages = [
     kg: '500 g',
     mrp: 'Rs 25',
     actmrp: 'Rs 20',
+    about:
+      'English cucumber is a variety of seedless cucumber that is longer and slimmer than other varieties and have a higher water content. They do not have a layer of wax on them, and the skin is tender when ripe. ',
+    about2:
+      'Cucumbers keep our body hydrated. Its hard skin has good amount of fiber and minerals. Eating cucumber improves digestion and reduces stress.  It reduces the risk of breast, ovarian, uterine and prostate cancers. The anti-inflammatory compounds in cucumbers help remove waste from the body and reduce skin irritation and it contains anti-wrinkling and anti-ageing properties as well.',
   },
   {
     image: require('../../../../assets/images/exotic/avac.jpg'),
@@ -46,6 +58,10 @@ const vegimages = [
     kg: '500 g',
     mrp: 'Rs 123.75',
     actmrp: 'Rs 99',
+    about:
+      'Avocados are oval shaped fruits with a thick green and a bumpy, leathery outer skin. They have a unique-texture, with a creamy and light green coloured flesh that has a buttery flavour and special aroma. Avocados are also known as an alligator pear or butter fruit.',
+    about2:
+      'Avocados improve digestion and are good for heart health and vision. They are rich in vitamins like C, E, K, B6, Magnesium, potassium and healthy fat. It prevents osteoporosis, cancer and reduces the risk of depression. They are also good for pregnant women as they are rich in folate that prevents neural tube defects in infants.',
   },
 
   {
@@ -54,6 +70,10 @@ const vegimages = [
     kg: '500 g',
     mrp: 'Rs 106.25',
     actmrp: 'Rs 85',
+    about:
+      'With a shape resembling that of a cauliflower, Brocollis have clusters of small, tight flower heads. These heads turn bright green on cooking and tastes slightly bitter.',
+    about2:
+      'Broccoli prevents cancer and reduces cholesterol. Maintains bone and heart health. Good for skin, eyes and has anti-ageing properties.',
   },
 ];
 

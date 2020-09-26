@@ -31,6 +31,10 @@ const displaylist = [
     kg: '200 g',
     mrp: ' Rs 32.50',
     actmrp: 'Rs 300',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. Britannia rusk toast is as crispy as your traditional one, but with a hint of elaichi and right amount of sweetness.',
+    about2:
+      'Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. ',
   },
   {
     image: require('../../../../assets/images/Bakery/cookies/two.jpg'),
@@ -41,6 +45,10 @@ const displaylist = [
     kg: '2x273 g Multipack',
     mrp: '66',
     actmrp: 'Rs 64',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. Britannia rusk toast is as crispy as your traditional one, but with a hint of elaichi and right amount of sweetness.',
+    about2:
+      'Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. ',
   },
 
   {
@@ -52,6 +60,10 @@ const displaylist = [
     kg: '270 g',
     mrp: '41.50',
     actmrp: 'Rs 40',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. Britannia rusk toast is as crispy as your traditional one, but with a hint of elaichi and right amount of sweetness.',
+    about2:
+      'Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. ',
   },
 
   {
@@ -63,6 +75,10 @@ const displaylist = [
     kg: '126 g',
     mrp: '62.50',
     actmrp: 'Rs 60',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. Britannia rusk toast is as crispy as your traditional one, but with a hint of elaichi and right amount of sweetness.',
+    about2:
+      'Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. ',
   },
 
   {
@@ -74,6 +90,10 @@ const displaylist = [
     kg: '2x200 g - Multipack',
     mrp: '94.50',
     actmrp: 'Rs 93.10',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. Britannia rusk toast is as crispy as your traditional one, but with a hint of elaichi and right amount of sweetness.',
+    about2:
+      'Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. ',
   },
   {
     image: require('../../../../assets/images/Bakery/cookies/one.jpg'),
@@ -84,6 +104,10 @@ const displaylist = [
     kg: '200 g',
     mrp: ' Rs 32.50',
     actmrp: 'Rs 300',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. Britannia rusk toast is as crispy as your traditional one, but with a hint of elaichi and right amount of sweetness.',
+    about2:
+      'Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. ',
   },
 ];
 

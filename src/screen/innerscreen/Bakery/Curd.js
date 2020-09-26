@@ -23,6 +23,10 @@ const displaylist = [
     kg: '500 g-Pouch',
     mrp: '37.50',
     actmrp: 'Rs 35',
+    about:
+      'Milky Mist Curd Farm Fresh is a rich supply of calcium and proteins. Prepared from better quality pasteurized toned milk to provide you the right width and texture. The live and active bacterial culture included in Milky Mist Curd hells digestion and lets you live a strong active life.',
+    about2:
+      'Contains (per 100 g)Calories 61Total Fat 3 gCholesterol 0 gSodium 0 gPotassium 0 gTotal Carbs 4 gDietary Fiber 0 gSugars 0 gProtein 4 g',
   },
   {
     image: require('../../../../assets/images/Bakery/curd/two.jpg'),
@@ -33,6 +37,10 @@ const displaylist = [
     kg: '1 l',
     mrp: '50',
     actmrp: 'Rs 47',
+    about:
+      'Milky Mist Curd Farm Fresh is a rich supply of calcium and proteins. Prepared from better quality pasteurized toned milk to provide you the right width and texture. The live and active bacterial culture included in Milky Mist Curd hells digestion and lets you live a strong active life.',
+    about2:
+      'Contains (per 100 g)Calories 61Total Fat 3 gCholesterol 0 gSodium 0 gPotassium 0 gTotal Carbs 4 gDietary Fiber 0 gSugars 0 gProtein 4 g',
   },
 
   {
@@ -44,6 +52,10 @@ const displaylist = [
     kg: '1 kg- Cup',
     mrp: '100',
     actmrp: 'Rs 95',
+    about:
+      'Milky Mist Curd Farm Fresh is a rich supply of calcium and proteins. Prepared from better quality pasteurized toned milk to provide you the right width and texture. The live and active bacterial culture included in Milky Mist Curd hells digestion and lets you live a strong active life.',
+    about2:
+      'Contains (per 100 g)Calories 61Total Fat 3 gCholesterol 0 gSodium 0 gPotassium 0 gTotal Carbs 4 gDietary Fiber 0 gSugars 0 gProtein 4 g',
   },
 
   {
@@ -55,6 +67,10 @@ const displaylist = [
     kg: '85 g -  Cup',
     mrp: '22.50',
     actmrp: 'Rs 20',
+    about:
+      'Milky Mist Curd Farm Fresh is a rich supply of calcium and proteins. Prepared from better quality pasteurized toned milk to provide you the right width and texture. The live and active bacterial culture included in Milky Mist Curd hells digestion and lets you live a strong active life.',
+    about2:
+      'Contains (per 100 g)Calories 61Total Fat 3 gCholesterol 0 gSodium 0 gPotassium 0 gTotal Carbs 4 gDietary Fiber 0 gSugars 0 gProtein 4 g',
   },
 
   {
@@ -66,6 +82,10 @@ const displaylist = [
     kg: '100 g',
     mrp: '32.50',
     actmrp: 'Rs 30',
+    about:
+      'Milky Mist Curd Farm Fresh is a rich supply of calcium and proteins. Prepared from better quality pasteurized toned milk to provide you the right width and texture. The live and active bacterial culture included in Milky Mist Curd hells digestion and lets you live a strong active life.',
+    about2:
+      'Contains (per 100 g)Calories 61Total Fat 3 gCholesterol 0 gSodium 0 gPotassium 0 gTotal Carbs 4 gDietary Fiber 0 gSugars 0 gProtein 4 g',
   },
   {
     image: require('../../../../assets/images/Bakery/curd/one.jpg'),
@@ -76,6 +96,10 @@ const displaylist = [
     kg: '85 g -  Cup',
     mrp: '22.50',
     actmrp: 'Rs 20',
+    about:
+      'Milky Mist Curd Farm Fresh is a rich supply of calcium and proteins. Prepared from better quality pasteurized toned milk to provide you the right width and texture. The live and active bacterial culture included in Milky Mist Curd hells digestion and lets you live a strong active life.',
+    about2:
+      'Contains (per 100 g)Calories 61Total Fat 3 gCholesterol 0 gSodium 0 gPotassium 0 gTotal Carbs 4 gDietary Fiber 0 gSugars 0 gProtein 4 g',
   },
 ];
 import Scroll from '../../../components/innerscreens/Scroll';

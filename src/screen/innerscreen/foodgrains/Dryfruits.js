@@ -31,6 +31,10 @@ const displaylist = [
     kg: '200 gm-Pouch',
     mrp: '240',
     actmrp: 'Rs 180',
+    about:
+      'Almonds are light brown-skinned, firm, ripe seeds of the almond fruit. They have a wealthy yet subtle bitter-sweet flavour. These are riches of nutrients, particularly dietary fibre, mono-unsaturated fatty acids, and protein, B complex vitamins.',
+    about2:
+      'Also, it is wealthy in vitamin E and minerals such as potassium, zinc, iron, calcium, selenium, manganese.',
   },
   {
     image: require('../../../../assets/images/food/dryfruits/two.jpg'),
@@ -41,6 +45,10 @@ const displaylist = [
     kg: '1kg',
     mrp: '1599',
     actmrp: 'Rs 1200',
+    about:
+      'BB Royal Organic Almonds are of Indian Origin almonds and it’s sourced from the certified organic farms.',
+    about2:
+      ' Naturally, Indian origin almonds vary in size, grade, texture, colour and taste when compared to imported almonds.',
   },
 
   {
@@ -52,6 +60,10 @@ const displaylist = [
     kg: '500 g',
     mrp: '899',
     actmrp: 'Rs 649',
+    about:
+      'Cashew Whole is enhanced with high calorie and fat content. It contains several health advantages because of their rich mineral content.',
+    about2:
+      ' It is rich in iron, zinc, copper and manganese for metabolism. It is enormous for adding a creamy texture to your dishes with no overpowering other flavours. You can also enjoy the entire cashews as a snack on their own',
   },
 
   {
@@ -63,6 +75,10 @@ const displaylist = [
     kg: '200 g',
     mrp: '300',
     actmrp: 'Rs 208',
+    about:
+      'Cashew Whole is enhanced with high calorie and fat content. It contains several health advantages because of their rich mineral content. ',
+    about2:
+      ' It is rich in iron, zinc, copper and manganese for metabolism. It is enormous for adding a creamy texture to your dishes with no overpowering other flavours. You can also enjoy the entire cashews as a snack on their own',
   },
 ];
 

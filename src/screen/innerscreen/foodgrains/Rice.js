@@ -30,6 +30,10 @@ const displaylist = [
     kg: '5 KG -Pouch',
     mrp: 'Rs 510',
     actmrp: 'Rs 381',
+    about:
+      'India Gate Basmati Rice Feast Rozzana is defined by its long grains and amazing aromatic flavour. Having this rice is truly having a feast rozzana (a daily feast); combine it with your veggies and serve a nice pulao',
+    about2:
+      'Basmati rice has complex carbohydrates which mean that it can be digested easily and can be considered as an instant energy source. Rice has little protein, but the protein is rich in eight amino acids; plus as this is a gluten-free grain, people who are gluten-intolerant can consume this rice without problem.',
   },
   {
     image: require('../../../../assets/images/food/rice/poha.jpg'),
@@ -40,6 +44,10 @@ const displaylist = [
     kg: '1kg -Pouch',
     mrp: 'Rs 80',
     actmrp: 'Rs 49',
+    about:
+      "Avalakki, also known as flattened rice or beaten rice, as the name suggests are flakes made by flattening dehusked rice. It considered healthy because it doesn't contain any cholesterol and saturated fat. It could be used to make various breakfasts as well as snack dishes. ",
+    about2:
+      'It is a great snack for weight-watchers as it is cholesterol and fat free, also making them heart-healthy. It is easily digestible and filling making it light yet satisfying meals.',
   },
 
   {
@@ -52,6 +60,10 @@ const displaylist = [
     kg: '25 kg-(6-11 Months O...)',
     mrp: 'Rs 1625',
     actmrp: 'Rs 1186',
+    about:
+      'Sona masonry rice is softer that other assortment white rice and has got a distinctive flavor and taste. It will have more delectable and yummy element in it. It makes the meal yummy and healthy for all age group. It has an exceptional source of protein and high in the nutrients. ',
+    about2:
+      'Sona masoori rice does provide some protein. Sona masoori rice is both fat free and sodium free. Carbohydrates are an essential nutrient which provide your body with energy and promote the proper functioning of your heart, brain, liver and kidneys. A moderate amounts of low-fiber grains fit within a healthy diet.',
   },
 
   {
@@ -63,6 +75,10 @@ const displaylist = [
     kg: '10 kg(12-17 Months...',
     mrp: 'Rs 150',
     actmrp: 'Rs 79',
+    about:
+      'Organic Sonamasuri Rice is famous for being a staple food in the Southern regions of India. ',
+    about2:
+      ' It is aromatic, lightweight and considered to be of the best quality. It is perfect for preparing dishes like sweet pongal, fried rice, biryani, or can also be used for daily cooking.',
   },
   {
     image: require('../../../../assets/images/food/rice/idlirice.jpg'),
@@ -73,6 +89,10 @@ const displaylist = [
     kg: '10 kg-Bag',
     mrp: 'Rs 570',
     actmrp: 'Rs 399',
+    about:
+      'Idli Rice Is Wholesome As It Is A Rich Supply Of Fibers And Is Effortless To Digest And Strong. It Is A Great Supply Of Carbohydrates And Proteins. They Are Light And It Can Create In Jiffy With Minimal Ingredients.',
+    about2:
+      ' It Makes Soft, Flaky Rice Flour Idli Flavor Yummy With Any Chutney, Sambar Or Even Podi. It Is Desired For Making Dosas And Idlis, As Well As Kanji For Babies And Elders. ',
   },
   {
     image: require('../../../../assets/images/food/rice/basmati.jpg'),
@@ -84,17 +104,10 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: 'Rs 60',
     actmrp: 'Rs 48',
-  },
-  {
-    image: require('../../../../assets/images/food/rice/basmati.jpg'),
-    type: 'BB RECOMMENDS',
-    brand: 'BB ROYAL',
-    name: 'Sooji Ordinary/Bombay Rava',
-    star: '4.1',
-    rating: ' 5694Ratings',
-    kg: '1 kg-Pouch',
-    mrp: 'Rs 60',
-    actmrp: 'Rs 48',
+    about:
+      'Ordinary Sooji is very tasty to prepare and enjoy it. It comes to use as the key ingredient in different Indian dishes. It is utilized widely in the kitchen for preparing a number of dishes. ',
+    about2:
+      'It is rich in fiber and very wholesome. It makes a very healthful and is very strong and good for people who are on diet. It is hygienically processed and is guaranteed for rich flavor and taste. ',
   },
 ];
 

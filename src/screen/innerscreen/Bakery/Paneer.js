@@ -33,6 +33,10 @@ const displaylist = [
     kg: '200 g-Pouch',
     mrp: 'Rs 90',
     actmrp: 'Rs 77',
+    about:
+      'Milky Mist is a brand that is known for its various dairy products. The pure and protein rich products are renowned for their high quality goodness.',
+    about2:
+      'Paneer is a product which is also known as cottage cheese. This is a healthy dairy product that is produced and marketed by Milky Mist.',
   },
   {
     image: require('../../../../assets/images/Bakery/paneer/two.jpg'),
@@ -43,6 +47,10 @@ const displaylist = [
     kg: '1 kg - Pouch',
     mrp: 'Rs 350',
     actmrp: 'Rs 340 ',
+    about:
+      'Milky Mist is a brand that is known for its various dairy products. The pure and protein rich products are renowned for their high quality goodness.',
+    about2:
+      'Paneer is a product which is also known as cottage cheese. This is a healthy dairy product that is produced and marketed by Milky Mist.',
   },
 
   {
@@ -54,6 +62,10 @@ const displaylist = [
     kg: '1 kg- Pouch',
     mrp: '321.50',
     actmrp: 'Rs 320',
+    about:
+      'Milky Mist is a brand that is known for its various dairy products. The pure and protein rich products are renowned for their high quality goodness.',
+    about2:
+      'Paneer is a product which is also known as cottage cheese. This is a healthy dairy product that is produced and marketed by Milky Mist.',
   },
 
   {
@@ -66,6 +78,10 @@ const displaylist = [
     kg: '200 g',
     mrp: '21.50 ',
     actmrp: 'Rs 20',
+    about:
+      'Milky Mist is a brand that is known for its various dairy products. The pure and protein rich products are renowned for their high quality goodness.',
+    about2:
+      'Paneer is a product which is also known as cottage cheese. This is a healthy dairy product that is produced and marketed by Milky Mist.',
   },
 
   {
@@ -77,6 +93,10 @@ const displaylist = [
     kg: '200 g',
     mrp: ' 90',
     actmrp: 'Rs 85',
+    about:
+      'Milky Mist is a brand that is known for its various dairy products. The pure and protein rich products are renowned for their high quality goodness.',
+    about2:
+      'Paneer is a product which is also known as cottage cheese. This is a healthy dairy product that is produced and marketed by Milky Mist.',
   },
   {
     image: require('../../../../assets/images/Bakery/paneer/one.jpg'),
@@ -87,6 +107,10 @@ const displaylist = [
     kg: '85 g -  Cup',
     mrp: '22.50',
     actmrp: 'Rs 20',
+    about:
+      'Milky Mist is a brand that is known for its various dairy products. The pure and protein rich products are renowned for their high quality goodness.',
+    about2:
+      'Paneer is a product which is also known as cottage cheese. This is a healthy dairy product that is produced and marketed by Milky Mist.',
   },
 ];
 

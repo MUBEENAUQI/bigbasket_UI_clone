@@ -30,6 +30,10 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 87.50',
     actmrp: 'Rs 70',
+    about:
+      'This cut roses with different (3-4) colours, can be used for garlands in the home, decorate in festivals and pooja. Product image shown is for representation purpose only, the actual product may vary based on season, produce & availability.',
+    about2:
+      'Please note that fresh fruit and vegetables items will be billed based on exact weight during order processing (in case the actual weight exceeds the requested weight by more than 10%, you will be charged only for 10% excess weight).',
   },
   {
     image: require('../../../../assets/images/flower/maryg.jpg'),
@@ -37,6 +41,10 @@ const vegimages = [
     kg: '100 g',
     mrp: 'Rs 25',
     actmrp: 'Rs 20',
+    about:
+      'Marigolds have daisy-like or twice, carnation-like flower heads and are produced separately or in clusters. Marigolds come in special colours, yellow and orange being the most common. It is used for pooja needs and floral decoration. Product image shown is for representation purpose only, the actual product may vary based on season, produce & availability.',
+    about2:
+      'Marigolds are loaded with anti-bacterial, anti-inflammatory and antiseptic properties, and are administered for several health conditions. Fresho marigold orange contains marigold extracts, pro-vitamin B5, vitamins A, C and E, vegetable glycerine, hydrolysed wheat protein, cream base, food colours and natural preservatives. It neutralises free radicals and prevents cell damage.',
   },
   {
     image: require('../../../../assets/images/flower/jam.jpg'),
@@ -44,6 +52,10 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 70',
     actmrp: 'Rs 56',
+    about:
+      "This versatile and low-maintenance flower is perfect for every setting, and with its long shelf life, you'll be falling in love with the Chrysanthemum every day! Perfect for your everyday puja.",
+    about2:
+      'Chrysanthemum are loaded with anti-bacterial, anti-inflammatory and antiseptic properties, and are administered for several health conditions. Fresho marigold orange contains marigold extracts, pro-vitamin B5, vitamins A, C and E, vegetable glycerine, hydrolysed wheat protein, cream base, food colours and natural preservatives. It neutralises free radicals and prevents cell damage.',
   },
   {
     image: require('../../../../assets/images/flower/banleaf.jpg'),
@@ -51,6 +63,9 @@ const vegimages = [
     kg: '5 PCS',
     mrp: 'Rs 22.70',
     actmrp: 'Rs 22',
+    about:
+      'Product image shown is for representation purpose only, the actually product may vary based on season, produce & availability.',
+    about2: 'Can be used for cooking and serving',
   },
 
   {
@@ -59,6 +74,10 @@ const vegimages = [
     kg: '250 g',
     mrp: 'Rs 42.50',
     actmrp: 'Rs 34',
+    about:
+      'Marigolds have daisy-like or twice, carnation-like flower heads and are produced separately or in clusters. Marigolds come in special colours, yellow and orange being the most common. It is used for pooja needs and floral decoration. ',
+    about2:
+      'You can use marigold as ingestion which means tea infusion. Marigold can be used as lotions and creams for wounds. It can also be used as gargles or mouthwashes.',
   },
 ];
 

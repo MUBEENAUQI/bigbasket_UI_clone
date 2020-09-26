@@ -29,6 +29,10 @@ const displaylist = [
     kg: '200 g',
     mrp: '66.50',
     actmrp: 'Rs 65',
+    about:
+      'This artisan garlic bread is a real treat, perfect for any occasion, drenched in butter and herb mixture. Generally served along with pasta and other main courses, all around the world. ',
+    about2:
+      ' A mixture of butter or olive oil, oregano, chilly flakes, etc., can be spread on the bread to make it a perfect evening snack.',
   },
   {
     image: require('../../../../assets/images/Bakery/snacks/two.jpg'),
@@ -39,6 +43,10 @@ const displaylist = [
     kg: '100 g - Pouch',
     mrp: '92.75',
     actmrp: 'Rs 90 ',
+    about:
+      'Unique crunchy chips embodied with Ragi, we are loaded with garlic and are perfect with any dip that you may choose to have',
+    about2:
+      'Contains Whole Wheat Flour, Piain White Wheat Flour, Ragi Flour (17%), Garlic, Salt, Sesame Seeds, Honey, Oil.',
   },
 
   {
@@ -50,6 +58,8 @@ const displaylist = [
     kg: '100 g',
     mrp: '102.50',
     actmrp: 'Rs 100',
+    about: '100% Wholewheat',
+    about2: 'Contains Wholewheat Flour (Atta), Yeast, Honey, Salt, Sesame',
   },
 
   {
@@ -59,8 +69,12 @@ const displaylist = [
     star: ' ',
     rating: ' ',
     kg: '100 g',
-    mrp: ' ',
+    mrp: '90',
     actmrp: 'Rs 85',
+    about:
+      'This artisan garlic bread is a real treat, perfect for any occasion, drenched in butter and herb mixture. Generally served along with pasta and other main courses, all around the world',
+    about2:
+      ' A mixture of butter or olive oil, oregano, chilly flakes, etc., can be spread on the bread to make it a perfect evening snack.',
   },
 
   {
@@ -72,6 +86,10 @@ const displaylist = [
     kg: '250 g - Pack of 12',
     mrp: '202.50',
     actmrp: 'Rs 200',
+    about:
+      'Dabur Hommade Ginger Garlic paste is made from freshest garlic paste and ground ginger paste in one hygienically sealed bag.',
+    about2:
+      'It is thick and grainy, providing the texture of freshly ground paste at Home.  ',
   },
 ];
 import Scroll from '../../../components/innerscreens/Scroll';

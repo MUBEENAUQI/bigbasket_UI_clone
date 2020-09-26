@@ -29,6 +29,10 @@ const displaylist = [
     kg: '2 kg',
     mrp: '120',
     actmrp: 'Rs 95',
+    about:
+      'Sugar is finished from organic sugar cane, the grains are light cream colored. It is an improved option as opposed to refined sugar that is pure white in color.',
+    about2:
+      "It is an immense supply of energy and has necessary minerals with no harsh chemicals or additives. Sugar is sucrose that becomes glucose. Sugar's glycolic acid can be very supportive in retaining the wellbeing and look of your skin.",
   },
   {
     image: require('../../../../assets/images/food/salt/two.jpg'),
@@ -39,6 +43,10 @@ const displaylist = [
     kg: '5kg',
     mrp: '275',
     actmrp: 'Rs 207',
+    about:
+      'Sugar is finished from organic sugar cane, the grains are light cream colored. It is an improved option as opposed to refined sugar that is pure white in color.',
+    about2:
+      "It is an immense supply of energy and has necessary minerals with no harsh chemicals or additives. Sugar is sucrose that becomes glucose. Sugar's glycolic acid can be very supportive in retaining the wellbeing and look of your skin.",
   },
 
   {
@@ -50,6 +58,10 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: '20',
     actmrp: 'Rs 19.80',
+    about:
+      'Tata and quality are synonymous in the world today. Tata Iodized Salt has been a staple in kitchens for generations now. This salt was first manufactured by Tata in a vacuum sealed pack, around the year 1983. ',
+    about2:
+      'Salt is one of the most important ingredients we use in food and cooking. It is a good method for food fortification and it also adds taste and flavour to any dish.',
   },
 
   {
@@ -61,6 +73,10 @@ const displaylist = [
     kg: 'Combo -2Ithems',
     mrp: '471',
     actmrp: 'Rs 356',
+    about:
+      'bb Royal Honey is 100% pure and natural multi-floral honey, sourced from theƒ€š‚ pine forests atƒ€š‚ the Himalayan foothills. Filled with natural goodness, this export quality premium honey is a healthy substitute to sugar.',
+    about2:
+      'Enjoy the pure creation of nature with our BB royal honey.It is minimally processed without affecting the natural taste,aroma and flavour .Our BB royal honey is free from any type of adulteration like jaggery,invert syrup,corn syrup,molasses etc.I',
   },
 ];
 

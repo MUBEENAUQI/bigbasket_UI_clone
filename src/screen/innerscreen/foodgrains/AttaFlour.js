@@ -29,6 +29,10 @@ const displaylist = [
     kg: '10 kg',
     mrp: 'Rs 450',
     actmrp: 'Rs 383',
+    about:
+      'Atta is made from the choicest grains - heavy on the palm, golden amber in colour and hard in a bite. It is carefully ground using modern chakki grinding process for the perfect balance of colour, taste and nutrition which also ensures that BB Royal atta contains 0% Maida. The dough made from BB Royal Atta absorbs more water, hence rotis remain softer for longer.',
+    about2:
+      'The dough made from BB Royal Atta absorbs more water, hence rotis remain softer for longer.',
   },
   {
     image: require('../../../../assets/images/food/Atta.jpg'),
@@ -40,6 +44,10 @@ const displaylist = [
     kg: '10 kg-Pouch',
     mrp: 'Rs 490',
     actmrp: 'Rs 410',
+    about:
+      'Aashirvaad whole wheat atta is made of zero per cent maida and 100% atta, which makes it extremely nutritious since its packed with health benefits. This also means more fluffy and soft rotis at home. ',
+    about2:
+      'Whole wheat atta is comparatively healthier than bleached white flour, which is obtained after processing and 60% extraction from grain. If you are consuming whole wheat atta, you are eating food enriched with vitamin B1, B3, B2, folic acid, calcium, phosphorus, iron, fiber and zinc.',
   },
 
   {
@@ -52,6 +60,10 @@ const displaylist = [
     kg: '2 kg-Pouch',
     mrp: 'Rs 120',
     actmrp: 'Rs 68',
+    about:
+      'Maida is considered as bleached flour that has less protein compare to unbleached.',
+    about2:
+      'This flour is Bleached flour has less protein than unbleached. It is a extremely finely milled flour used in Indian cooking for making breads, pastries and various biscuits and in particular parottas. ',
   },
 
   {
@@ -64,6 +76,10 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: 'Rs 150',
     actmrp: 'Rs 79',
+    about:
+      'Gram flour or besan, is a light yellow color pulses flour made by grinding chickpea (Bengal gram). It is rich in fiber and nutrients, that can improve heart health, stabilize blood sugar and prevent diabetes. ',
+    about2:
+      'Besan is used to make batter for fries like bhajjis, pakodas and vadas. It is also used to make desserts and various kinds of sweet dishes. It can be used as a natural scrub for the skin and is believed to enhance complexion. ',
   },
   {
     image: require('../../../../assets/images/food/besan20.jpg'),
@@ -75,7 +91,12 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: 'Rs 60',
     actmrp: 'Rs 48',
+    about:
+      'The BB Royal Sooji or semolina is packed with health benefits. It is actually anything but ordinary because it has been sourced from the finest of durum wheat and then packaged hygenically so that it doesnt get affected by humidity. ',
+    about2:
+      'Sooji, is known for being light on the palette and having the goodness of digestive fibres from wheat. It melts in the mouth, making it light for infants too. It has minerals and vitamins, which boost your overall health. Being low in calorie, it also helps in managing your weight.',
   },
+
   {
     image: require('../../../../assets/images/food/wheat.jpg'),
     type: 'BB RECOMMENDS',
@@ -86,17 +107,10 @@ const displaylist = [
     kg: '1 kg-Pouch',
     mrp: 'Rs 60',
     actmrp: 'Rs 48',
-  },
-  {
-    image: require('../../../../assets/images/food/wheat.jpg'),
-    type: 'BB RECOMMENDS',
-    brand: 'BB ROYAL',
-    name: 'Sooji Ordinary/Bombay Rava',
-    star: '4.1',
-    rating: ' 5694Ratings',
-    kg: '1 kg-Pouch',
-    mrp: 'Rs 60',
-    actmrp: 'Rs 48',
+    about:
+      'The BB Royal Sooji or semolina is packed with health benefits. It is actually anything but ordinary because it has been sourced from the finest of durum wheat and then packaged hygenically so that it doesnt get affected by humidity. ',
+    about2:
+      'Sooji, is known for being light on the palette and having the goodness of digestive fibres from wheat. It melts in the mouth, making it light for infants too. It has minerals and vitamins, which boost your overall health. Being low in calorie, it also helps in managing your weight.',
   },
 ];
 

@@ -32,6 +32,10 @@ const vegimages = [
     kg: '4 PCS-(approx.800 to ..)',
     mrp: 'Rs 148.75',
     actmrp: 'Rs 119',
+    about:
+      'With ruby color and an intense floral, sweet-tart flavor, the pomegranate delivers both taste and beauty. You can remove the skin and the membranes to get at the delicious fruit with nutty seeds. Fresho Pomegranates are finely sorted and graded to deliver the best tasting pomegranates to you.',
+    about2:
+      'Pomegranate juice lowers bad cholesterol and raises good cholesterol. Reduces the risk of heart stoke. Gives a boost of energy and freshness. So, this is specially recommended for women during menopause. Good for pregnant women as it prevents brain damage in infants.',
   },
 
   {
@@ -40,6 +44,10 @@ const vegimages = [
     kg: '1 kg',
     mrp: 'Rs 105',
     actmrp: 'Rs 65',
+    about:
+      'Tiny and small sized, this variety is called Yelakki in Bangalore and Elaichi in Mumbai. Despite its small size, they are naturally flavoured, aromatic and sweeter compared to regular bananas. Yelakki bananas are around 3- 4 inches long and contain a thinner skin and better shelf life than Robusta bananas. ',
+    about2:
+      'One banana supplies 30 percent of the daily vitamin B6 requirement and is rich in vitamin C and potassium. It reduces appetite and promotes weight loss, while also boosting the immune system and keeping the bones strong. It is very good for pregnant women and athletes.',
   },
   {
     image: require('../../../../assets/images/fruits/watermelon.jpg'),
@@ -47,6 +55,10 @@ const vegimages = [
     kg: '1 PC-1.7 -2.5 kg',
     mrp: 'Rs 36.25',
     actmrp: 'Rs 16.80',
+    about:
+      'With greenish black to smooth dark green surface, Fresho watermelons are globular in shape and are freshly picked for you directly from our farmers .The juicy, sweet and grainy textured flesh is filled with 12-14% of sugar content, making it a healthy alternative to sugary carbonated drinks. Flesh colour of these watermelons are pink to red with dark brown/black seeds.',
+    about2:
+      'Rich in anti-oxidant flavonoids that protects against prostate, breast, colon, pancreatic and lung cancers. They are an excellent source of lycopene which protects skin against harmful UV rays. It is also a great source for A, C, B-complex vitamins, iron and fiber which boosts body metabolism. ',
   },
   {
     image: require('../../../../assets/images/fruits/coco.jpg'),
@@ -54,6 +66,10 @@ const vegimages = [
     kg: '1 PC',
     mrp: 'Rs 32.50',
     actmrp: 'Rs 26',
+    about:
+      'Coconut is a very stable fruit. It is a mature fruit of the cocos nucifera palm. The fruit is nearly spherical to oval in shape and measure between 5-10 inches in width. Its rough external husk is light green, and turns gray as the nut grown-up. The husk is about 1-2 inches in thickness and made of tough fibers. ',
+    about2:
+      'Coconut is to stabilizing blood sugar, lowering cholesterol, healing, hydration and even replacing blood plasma in an emergency.',
   },
   {
     image: require('../../../../assets/images/fruits/tender.jpg'),
@@ -61,6 +77,10 @@ const vegimages = [
     kg: '1 PC',
     mrp: 'Rs 46.25',
     actmrp: 'Rs 37',
+    about:
+      'Young, fresh and healthy tender coconuts are a pure, tasty and nutritious energy drink that keeps body hydrated round the clock. Tender coconut is the most refreshing drink and best to quench your thirst in the summer.',
+    about2:
+      'Coconuts are a source of quick energy and refreshment. They improve digestion and immune system health.They also prevent heart diseases by increasing good cholesterol and protect cells from cancer and ageing as they contain Cytokinin.',
   },
 ];
 

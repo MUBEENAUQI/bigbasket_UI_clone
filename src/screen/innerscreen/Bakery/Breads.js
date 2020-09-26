@@ -29,6 +29,10 @@ const displaylist = [
     kg: 'Combo-2 Items',
     mrp: ' Rs 108',
     actmrp: 'Rs 100',
+    about:
+      'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
+    about2:
+      'We recommend you consume this bread within 2 days or refrigerate if you intend to use it longer. Rich in Fibre, No caramel, No Artificial Colours, Baked on Order',
   },
   {
     image: require('../../../../assets/images/Bakery/breads/three.jpg'),
@@ -39,6 +43,10 @@ const displaylist = [
     kg: '120 g',
     mrp: '22.50',
     actmrp: 'Rs 20.10',
+    about:
+      'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
+    about2:
+      'We recommend you consume this bread within 2 days or refrigerate if you intend to use it longer. Rich in Fibre, No caramel, No Artificial Colours, Baked on Order',
   },
   {
     image: require('../../../../assets/images/Bakery/breads/two.jpg'),
@@ -49,6 +57,10 @@ const displaylist = [
     kg: '200 g  ',
     mrp: '162',
     actmrp: 'Rs 159 ',
+    about:
+      'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
+    about2:
+      'We recommend you consume this bread within 2 days or refrigerate if you intend to use it longer. Rich in Fibre, No caramel, No Artificial Colours, Baked on Order',
   },
 
   {
@@ -60,6 +72,10 @@ const displaylist = [
     kg: '250 g ',
     mrp: '160',
     actmrp: 'Rs 159',
+    about:
+      'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
+    about2:
+      'We recommend you consume this bread within 2 days or refrigerate if you intend to use it longer. Rich in Fibre, No caramel, No Artificial Colours, Baked on Order',
   },
 
   {
@@ -71,6 +87,10 @@ const displaylist = [
     kg: '250 g',
     mrp: '160',
     actmrp: 'Rs 159',
+    about:
+      'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
+    about2:
+      'We recommend you consume this bread within 2 days or refrigerate if you intend to use it longer. Rich in Fibre, No caramel, No Artificial Colours, Baked on Order',
   },
   {
     image: require('../../../../assets/images/Bakery/breads/one.jpg'),
@@ -81,6 +101,10 @@ const displaylist = [
     kg: '85 g -Cup',
     mrp: '22.50',
     actmrp: 'Rs 20',
+    about:
+      'Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available. ',
+    about2:
+      'We recommend you consume this bread within 2 days or refrigerate if you intend to use it longer. Rich in Fibre, No caramel, No Artificial Colours, Baked on Order',
   },
 ];
 

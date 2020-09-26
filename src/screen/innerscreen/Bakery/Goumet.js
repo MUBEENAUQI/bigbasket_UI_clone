@@ -30,6 +30,10 @@ const displaylist = [
     kg: '200 g-Pouch',
     mrp: ' Rs 32.50',
     actmrp: 'Rs 30',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. ',
+    about2:
+      ' Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. Believing in delivering fresh and healthy products.',
   },
   {
     image: require('../../../../assets/images/Bakery/gourmet/two.jpg'),
@@ -40,6 +44,10 @@ const displaylist = [
     kg: '45 g - Pouch',
     mrp: '16.50',
     actmrp: 'Rs 15',
+    about:
+      'Oven baked and made with naturally leavened dough, these Moonfils are filled with rich cocoa cream. ',
+    about2:
+      'This soft & delicious Italian puff roll stays fresh for much longer than most breads or cakes. ',
   },
 
   {
@@ -51,6 +59,10 @@ const displaylist = [
     kg: '45 g - Pouch',
     mrp: '16.50',
     actmrp: 'Rs 15',
+    about:
+      'Oven baked and made with naturally leavened dough, these Moonfils are filled with rich cocoa cream. ',
+    about2:
+      'This soft & delicious Italian puff roll stays fresh for much longer than most breads or cakes. ',
   },
 
   {
@@ -62,6 +74,10 @@ const displaylist = [
     kg: '150 g',
     mrp: '41.50',
     actmrp: 'Rs 40',
+    about:
+      'Britannia Bake Rusk Toast has been a traditional tea companion and is loved by many. ',
+    about2:
+      ' Britannia toastea premium bake rusk for long has been a part of every home, sharing those moments of joy. Believing in delivering fresh and healthy products.',
   },
 
   {
@@ -73,6 +89,10 @@ const displaylist = [
     kg: '45 g',
     mrp: '16.75',
     actmrp: 'Rs 15',
+    about:
+      'Britannia Treat Croissant Vanilla CrÃ¨me Roll is a delightful combination of smooth and creamy vanilla cream with a fluffy and spongy puff. ',
+    about2:
+      ' Every bite of these delicious, vanilla croissant entices you for more and more. ',
   },
   {
     image: require('../../../../assets/images/Bakery/gourmet/one.jpg'),
@@ -83,6 +103,10 @@ const displaylist = [
     kg: '45 g - Pouch',
     mrp: '16.50',
     actmrp: 'Rs 15',
+    about:
+      'Oven baked and made with naturally leavened dough, these Moonfils are filled with rich cocoa cream. ',
+    about2:
+      'This soft & delicious Italian puff roll stays fresh for much longer than most breads or cakes. ',
   },
 ];
 

@@ -33,6 +33,8 @@ class DisplayList extends Component {
                   price: data.mrp,
                   name: data.vegname,
                   productImage: data.image,
+                  about1: data.about,
+                  about2: data.about2,
                 })
               }>
               <Image

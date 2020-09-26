@@ -33,6 +33,10 @@ const displaylist = [
     kg: '5kg',
     mrp: '470',
     actmrp: 'Rs 359',
+    about:
+      'Organic Sonamasuri Rice is famous for being a staple food in the Southern regions of India.',
+    about2:
+      'It is aromatic, lightweight and considered to be of the best quality. It is perfect for preparing dishes like sweet pongal, fried rice, biryani, or can also be used for daily cooking.',
   },
   {
     image: require('../../../../assets/images/food/staples/two.jpg'),
@@ -43,6 +47,10 @@ const displaylist = [
     kg: '1 kg ',
     mrp: '119',
     actmrp: 'Rs 93',
+    about:
+      'Organic Brown sugar is a sucrose sugar product with a distinctive brown color due to the presence of Organic molasses. ',
+    about2:
+      ' It is either an unrefined or partially refined soft sugar consisting of sugar crystals with some residual molasses content, or it is produced by the addition of molasses to refined white sugar',
   },
 
   {
@@ -54,6 +62,10 @@ const displaylist = [
     kg: '1kg',
     mrp: '119',
     actmrp: 'Rs 93',
+    about:
+      'Organic Brown sugar is a sucrose sugar product with a distinctive brown color due to the presence of Organic molasses. ',
+    about2:
+      ' It is either an unrefined or partially refined soft sugar consisting of sugar crystals with some residual molasses content, or it is produced by the addition of molasses to refined white sugar',
   },
 
   {
@@ -65,6 +77,10 @@ const displaylist = [
     kg: '200g',
     mrp: '325',
     actmrp: 'Rs 279',
+    about:
+      'BB Royal Organic Almonds are of Indian Origin almonds and it’s sourced from the certified organic farms.',
+    about2:
+      'BB Royal Organic Almonds are of Indian Origin almonds and it’s sourced from the certified organic farms.',
   },
 ];
 
