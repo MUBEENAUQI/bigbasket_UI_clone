@@ -1,13 +1,28 @@
 import React, {Component} from 'react';
-import {StyleSheet, TextInput, View, Text, StatusBar} from 'react-native';
+import {
+  StyleSheet,
+  TextInput,
+  View,
+  Text,
+  StatusBar,
+  TouchableOpacity,
+} from 'react-native';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Drawer from './drawer/drawer';
 import DrawerIndex from './DrawerIndex';
 import FeatherI from 'react-native-vector-icons/Feather';
-export default class Header extends Component {
+import {useNavigation} from '@react-navigation/native';
+export default function (props) {
+  const navigation = useNavigation();
+
+  return <Header {...props} navigation={navigation} />;
+}
+
+class Header extends Component {
   render() {
+    const {navigation} = this.props;
     return (
       <>
         <StatusBar backgroundColor="#87BE56" barStyle="light-content" />
@@ -23,9 +38,12 @@ export default class Header extends Component {
             }}>
             <View style={{flexDirection: 'row'}}>
               <DrawerIndex />
-              <View style={this.props.data == true ? styles.A : styles.B}>
-                <EvilIcons style={styles.icon2} name="user" />
-              </View>
+              <TouchableOpacity
+                onPress={() => navigation.navigate('Loginscreen')}>
+                <View style={this.props.data == true ? styles.A : styles.B}>
+                  <EvilIcons style={styles.icon2} name="user" />
+                </View>
+              </TouchableOpacity>
               <View style={this.props.data == false ? styles.C : styles.B}>
                 <Text style={styles.text}>Shop By Category</Text>
               </View>
@@ -61,7 +79,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     elevation: 5,
   },
-  A: {display: 'flex', flex: 1},
+  A: {display: 'flex', flex: 2},
   B: {display: 'none'},
   C: {display: 'flex', flex: 18, marginTop: 15},
   icon1: {

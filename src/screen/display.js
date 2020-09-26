@@ -85,7 +85,7 @@ class Display extends Component {
                         <View style={styles.ratingbox}>
                           <Ionicons
                             style={{fontSize: 10, color: '#7CB944'}}
-                            name="star"></Ionicons>
+                            name="star "></Ionicons>
                           {/* <Text style={{fontSize:10,color:'#8F8F8F'}}>{data.star}</Text> */}
                         </View>
                         {/* <Text style={{fontSize:10,color:'#8F8F8F'}}>{data.rating}</Text> */}

@@ -13,16 +13,34 @@ import {Dimensions} from 'react-native';
 //import greendot from '../../../assets/images/greendot.png';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-export default class BakerDisplay extends Component {
+
+import {useNavigation} from '@react-navigation/native';
+export default function (props) {
+  const navigation = useNavigation();
+
+  return <BakerDisplay {...props} navigation={navigation} />;
+}
+
+class BakerDisplay extends Component {
   render() {
+    const {navigation} = this.props;
     return (
       <View style={styles.container}>
         {this.props.data.map((data) => (
           <View style={styles.displaybox}>
-            <Image
-              style={{height: 160, width: 160, resizeMode: 'contain'}}
-              source={data.image}></Image>
-
+            <TouchableOpacity
+              onPress={() =>
+                navigation.navigate('Productd', {
+                  price2: data.actmrp,
+                  price: data.mrp,
+                  name: data.name,
+                  productImage: data.image,
+                })
+              }>
+              <Image
+                style={{height: 160, width: 160, resizeMode: 'contain'}}
+                source={data.image}></Image>
+            </TouchableOpacity>
             <View style={styles.descriptionview}>
               <Text style={{fontSize: 13, color: '#8F8F8F'}}>{data.brand}</Text>
               <Text style={{fontSize: 13}}>{data.name}</Text>

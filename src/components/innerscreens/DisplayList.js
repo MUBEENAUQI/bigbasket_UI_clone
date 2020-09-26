@@ -12,16 +12,33 @@ import {
 import {Dimensions} from 'react-native';
 import greendot from '../../../assets/images/greendot.png';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
-export default class DisplayList extends Component {
+
+import {useNavigation} from '@react-navigation/native';
+export default function (props) {
+  const navigation = useNavigation();
+
+  return <DisplayList {...props} navigation={navigation} />;
+}
+class DisplayList extends Component {
   render() {
+    const {navigation} = this.props;
     return (
       <View style={styles.container}>
         {this.props.data.map((data) => (
           <View style={styles.displaybox}>
-            <Image
-              style={{height: 120, width: 120, resizeMode: 'contain'}}
-              source={data.image}></Image>
-
+            <TouchableOpacity
+              onPress={() =>
+                navigation.navigate('Productd', {
+                  price2: data.actmrp,
+                  price: data.mrp,
+                  name: data.vegname,
+                  productImage: data.image,
+                })
+              }>
+              <Image
+                style={{height: 120, width: 120, resizeMode: 'contain'}}
+                source={data.image}></Image>
+            </TouchableOpacity>
             <View style={styles.descriptionview}>
               <Text style={{fontSize: 14, color: '#8F8F8F'}}>FRESHO</Text>
               <Text style={{fontSize: 13}}>{data.vegname}</Text>

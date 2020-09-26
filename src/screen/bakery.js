@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import Swiperi from '../components/swiper';
 import Head from '../components/head';
-import Options from '../components/options';
+import Options2 from '../components/options2';
 import Banner from '../components/banner';
 import Header from '../components/header';
 const images = [
@@ -28,21 +28,21 @@ const options1 = [
     h: 140,
     w: 132,
     data1: 'Foodgrains/Milk',
-    datas: 'Display',
+    datas: 'Milk',
   },
   {
     image: require('../../assets/bakery/menu2.jpg'),
     h: 140,
     w: 132,
     data1: 'Foodgrains/Curd',
-    datas: 'Display',
+    datas: 'Curd',
   },
   {
     image: require('../../assets/bakery/menu3.jpg'),
     h: 140,
     w: 132,
     data1: 'Foodgrains/Paneer',
-    datas: 'Display',
+    datas: 'Paneer',
   },
 ];
 const options2 = [
@@ -51,21 +51,21 @@ const options2 = [
     h: 140,
     w: 132,
     data1: 'Foodgrains/Cheese',
-    datas: 'Display',
+    datas: 'Cheese',
   },
   {
     image: require('../../assets/bakery/menu5.jpg'),
     h: 140,
     w: 132,
     data1: 'Foodgrains/Cakes',
-    datas: 'Display',
+    datas: 'Cake',
   },
   {
     image: require('../../assets/bakery/menu6.png'),
     h: 140,
     w: 132,
     data1: 'Foodgrains/Bread',
-    datas: 'Display',
+    datas: 'Bread',
   },
 ];
 const options3 = [
@@ -74,21 +74,21 @@ const options3 = [
     h: 140,
     w: 132,
     data1: 'Foodgrains/Cookies',
-    datas: 'Display',
+    datas: 'Cookie',
   },
   {
     image: require('../../assets/bakery/menu8.jpg'),
     h: 140,
     w: 132,
     data1: 'Foodgrains/Gourmet',
-    datas: 'Display',
+    datas: 'Goumet',
   },
   {
     image: require('../../assets/bakery/menu9.jpg'),
     h: 140,
     w: 132,
     data1: 'Foodgrains/Bakery',
-    datas: 'Display',
+    datas: 'Bsnack',
   },
 ];
 const banner = [{image: require('../../assets/bakery/banner1.jpg'), h: 120}];
@@ -120,9 +120,9 @@ export default class Bakery extends React.Component {
               <Head data={head} />
             </View>
             <View style={styles.options}>
-              <Options data={options1} />
-              <Options data={options2} />
-              <Options data={options3} />
+              <Options2 data={options1} />
+              <Options2 data={options2} />
+              <Options2 data={options3} />
             </View>
 
             <View style={styles.banner}>

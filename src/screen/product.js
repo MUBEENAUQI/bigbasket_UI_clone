@@ -115,7 +115,7 @@ export default class Display extends Component {
                 </View>
                 <View style={{backgroundColor: 'white', marginTop: 10}}>
                   <Text style={styles.delivery}>
-                    Stadard Delivery: Tomorrow 8:00AM - 5:00PM
+                    Stadard Delivery: Tomorrow 8:00 AM - 5:00 PM
                   </Text>
                 </View>
                 <View style={{backgroundColor: 'white', marginTop: 10}}>

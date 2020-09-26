@@ -62,6 +62,17 @@ import Sugar from './src/screen/innerscreen/foodgrains/Salt';
 import Dry_Fruits from './src/screen/innerscreen/foodgrains/Dryfruits';
 import Allfoodgrains from './src/screen/innerscreen/foodgrains/Viewall';
 
+import Milk from './src/screen/innerscreen/Bakery/Milk';
+import Curd from './src/screen/innerscreen/Bakery/Curd';
+import Paneer from './src/screen/innerscreen/Bakery/Paneer';
+import Cheese from './src/screen/innerscreen/Bakery/Cheese';
+import Cake from './src/screen/innerscreen/Bakery/Cakes';
+import Bread from './src/screen/innerscreen/Bakery/Breads';
+import Cookie from './src/screen/innerscreen/Bakery/Cookies';
+import Goumet from './src/screen/innerscreen/Bakery/Goumet';
+import Bsnack from './src/screen/innerscreen/Bakery/Bakerysnack';
+
+import Productd from './src/screen/innerscreen/productscreen/Prodcts';
 const HomeStack = createStackNavigator();
 
 const Tab = createBottomTabNavigator();
@@ -152,6 +163,16 @@ export default function App() {
           options={{headerShown: false}}
           name="Fruits"
           component={Fruits}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Productd"
+          component={Productd}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="HomeScreen"
+          component={HomeScreen}
         />
         <HomeStack.Screen
           options={{headerShown: false}}
@@ -329,11 +350,56 @@ export default function App() {
           component={Allfoodgrains}
         />
 
-        {/* <HomeStack.Screen
+        <HomeStack.Screen
           options={{headerShown: false}}
-          name="Drawers "
-          component={Drawers}
-        /> */}
+          name="Loginscreen"
+          component={Loginscreen}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Milk"
+          component={Milk}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Curd"
+          component={Curd}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Paneer"
+          component={Paneer}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Cheese"
+          component={Cheese}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Cake"
+          component={Cake}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Bread"
+          component={Bread}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Cookie"
+          component={Cookie}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Goumet"
+          component={Goumet}
+        />
+        <HomeStack.Screen
+          options={{headerShown: false}}
+          name="Bsnack"
+          component={Bsnack}
+        />
       </HomeStack.Navigator>
     </NavigationContainer>
   );

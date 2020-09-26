@@ -142,7 +142,10 @@ class Drawer extends React.Component {
                     }}>
                     <Btn label="Login" />
                   </TouchableOpacity>
-                  <TouchableOpacity>
+                  <TouchableOpacity
+                    onPress={() => {
+                      navigate('Loginscreen');
+                    }}>
                     <Btn label="Sign Up" />
                   </TouchableOpacity>
                 </View>
